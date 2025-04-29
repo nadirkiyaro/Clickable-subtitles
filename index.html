@@ -18,24 +18,39 @@
     }
 
     .subtitle-line {
-      cursor: pointer;
-      padding: 6px;
-      margin: 4px 0;
-      border-bottom: 1px solid #eee;
+      padding: 10px;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      margin: 6px 0;
+      display: none; /* only show active line */
     }
 
-    .subtitle-line:hover {
-      background-color: #f0f0f0;
+    .subtitle-line.active {
+      display: block;
     }
 
     .word {
       margin: 0 4px;
       display: inline-block;
+      cursor: pointer;
+      position: relative;
     }
 
-    .word[title] {
-      border-bottom: 1px dotted #555;
-      cursor: help;
+    .tooltip {
+      position: absolute;
+      background: black;
+      color: white;
+      padding: 4px 6px;
+      border-radius: 4px;
+      top: -30px;
+      left: 0;
+      white-space: nowrap;
+      display: none;
+      z-index: 10;
+    }
+
+    .word.show-tooltip .tooltip {
+      display: block;
     }
   </style>
 </head>
@@ -43,7 +58,6 @@
 
   <h1>Clickable Subtitles (Besintu Episode 1)</h1>
 
-  <!-- YouTube video embed -->
   <iframe
     id="youtube-player"
     src="https://www.youtube.com/embed/KTZYUfPazdw?start=122&enablejsapi=1"
@@ -56,50 +70,92 @@
 
   <script>
     let player;
+    let subtitles = [];
 
     function onYouTubeIframeAPIReady() {
       player = new YT.Player('youtube-player', {
         events: {
-          'onReady': loadSubtitles
+          'onReady': onPlayerReady
         }
       });
     }
 
-    function loadSubtitles() {
+    function onPlayerReady() {
       fetch('besintu_ep1_subtitles.json')
         .then(response => response.json())
         .then(data => {
-          const container = document.getElementById('subtitles');
-
-          data.forEach(item => {
-            const line = document.createElement('div');
-            line.className = 'subtitle-line';
-
-            item.words.forEach(word => {
-              const span = document.createElement('span');
-              span.className = 'word';
-              span.textContent = word.text;
-              if (word.tooltip) span.title = word.tooltip;
-              line.appendChild(span);
-            });
-
-            line.onclick = () => {
-              if (player) {
-                player.seekTo(item.start, true);
-                player.playVideo();
-              }
-            };
-
-            container.appendChild(line);
-          });
+          subtitles = data;
+          renderSubtitles(data);
+          setInterval(updateSubtitle, 300); // update every 300ms
         });
+    }
+
+    function renderSubtitles(data) {
+      const container = document.getElementById('subtitles');
+      container.innerHTML = '';
+
+      data.forEach((item, index) => {
+        const line = document.createElement('div');
+        line.className = 'subtitle-line';
+        line.dataset.start = item.start;
+        line.dataset.end = item.end;
+        line.dataset.index = index;
+
+        item.words.forEach(word => {
+          const span = document.createElement('span');
+          span.className = 'word';
+          span.textContent = word.text;
+
+          if (word.tooltip) {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = word.tooltip;
+            span.appendChild(tooltip);
+
+            span.addEventListener('click', (e) => {
+              span.classList.toggle('show-tooltip');
+              e.stopPropagation();
+            });
+          }
+
+          line.appendChild(span);
+        });
+
+        line.onclick = () => {
+          player.seekTo(item.start, true);
+          player.playVideo();
+        };
+
+        container.appendChild(line);
+      });
+    }
+
+    function updateSubtitle() {
+      if (!player || typeof player.getCurrentTime !== 'function') return;
+      const currentTime = player.getCurrentTime();
+
+      document.querySelectorAll('.subtitle-line').forEach(line => {
+        const start = parseFloat(line.dataset.start);
+        const end = parseFloat(line.dataset.end);
+        if (currentTime >= start && currentTime <= end) {
+          line.classList.add('active');
+        } else {
+          line.classList.remove('active');
+        }
+      });
     }
 
     // Load YouTube IFrame API
     const tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
     document.head.appendChild(tag);
-  </script>
 
+    // Hide tooltip when clicking elsewhere
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.word.show-tooltip').forEach(el => {
+        el.classList.remove('show-tooltip');
+      });
+    });
+  </script>
 </body>
 </html>
