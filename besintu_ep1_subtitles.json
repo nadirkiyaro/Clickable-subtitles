@@ -57,39 +57,40 @@
       },
       {
         "text": "ከጋሼ",
-        "tooltip": ""
+        "tooltip": "ከ__ጋር -> with
+        ጋሼ - Sir"
       },
       {
         "text": "ጋር",
-        "tooltip": ""
+        "tooltip": "ከ__ጋር -> with"
       },
       {
         "text": "12ኛ",
-        "tooltip": ""
+        "tooltip": "12th"
       },
       {
         "text": "አመት",
-        "tooltip": ""
+        "tooltip": "year"
       },
       {
         "text": "የጋብቻ",
-        "tooltip": ""
+        "tooltip": "of marriage"
       },
       {
         "text": "ቀናችሁ",
-        "tooltip": ""
+        "tooltip": "your day"
       },
       {
         "text": "ልታከብሩ",
-        "tooltip": ""
+        "tooltip": "about to celebrate"
       },
       {
         "text": "ነው",
-        "tooltip": ""
+        "tooltip": "is"
       },
       {
         "text": "አይደል",
-        "tooltip": ""
+        "tooltip": "right?"
       }
     ]
   },
