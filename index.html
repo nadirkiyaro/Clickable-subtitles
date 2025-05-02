@@ -22,7 +22,7 @@
       background: #f9f9f9;
       border: 1px solid #ddd;
       margin: 6px 0;
-      display: none; /* only show active line */
+      display: none;
     }
 
     .subtitle-line.active {
@@ -42,7 +42,7 @@
       color: white;
       padding: 4px 6px;
       border-radius: 4px;
-      top: -30px;
+      top: -40px;
       left: 0;
       white-space: nowrap;
       display: none;
@@ -60,7 +60,7 @@
 
   <iframe
     id="youtube-player"
-    src="https://www.youtube.com/embed/KTZYUfPazdw?start=122&enablejsapi=1"
+    src="https://www.youtube.com/embed/KTZYUfPazdw?enablejsapi=1"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
@@ -86,7 +86,7 @@
         .then(data => {
           subtitles = data;
           renderSubtitles(data);
-          setInterval(updateSubtitle, 300); // update every 300ms
+          setInterval(updateSubtitle, 300);
         });
     }
 
@@ -102,23 +102,34 @@
         line.dataset.index = index;
 
         item.words.forEach(word => {
-          const span = document.createElement('span');
-          span.className = 'word';
-          span.textContent = word.text;
+          const wordContainer = document.createElement('span');
+          wordContainer.className = 'word';
 
-          if (word.tooltip) {
-            const tooltip = document.createElement('div');
-            tooltip.className = 'tooltip';
-            tooltip.textContent = word.tooltip;
-            span.appendChild(tooltip);
+          const amharic = document.createElement('div');
+          amharic.textContent = word.text;
 
-            span.addEventListener('click', (e) => {
-              span.classList.toggle('show-tooltip');
-              e.stopPropagation();
-            });
+          const phonetic = document.createElement('div');
+          phonetic.textContent = word.phonetic;
+
+          const tooltip = document.createElement('div');
+          tooltip.className = 'tooltip';
+          tooltip.innerHTML = `<strong>${word.text}</strong><br><em>${word.phonetic}</em><br>${word.translation}`;
+          wordContainer.appendChild(tooltip);
+
+          function handleTooltipClick(e) {
+            e.stopPropagation();
+            document.querySelectorAll('.word.show-tooltip').forEach(el => el.classList.remove('show-tooltip'));
+            wordContainer.classList.add('show-tooltip');
+            if (player) player.pauseVideo();
           }
 
-          line.appendChild(span);
+          amharic.onclick = handleTooltipClick;
+          phonetic.onclick = handleTooltipClick;
+
+          wordContainer.appendChild(amharic);
+          wordContainer.appendChild(phonetic);
+
+          line.appendChild(wordContainer);
         });
 
         line.onclick = () => {
@@ -137,20 +148,14 @@
       document.querySelectorAll('.subtitle-line').forEach(line => {
         const start = parseFloat(line.dataset.start);
         const end = parseFloat(line.dataset.end);
-        if (currentTime >= start && currentTime <= end) {
-          line.classList.add('active');
-        } else {
-          line.classList.remove('active');
-        }
+        line.classList.toggle('active', currentTime >= start && currentTime <= end);
       });
     }
 
-    // Load YouTube IFrame API
     const tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
     document.head.appendChild(tag);
 
-    // Hide tooltip when clicking elsewhere
     document.addEventListener('click', () => {
       document.querySelectorAll('.word.show-tooltip').forEach(el => {
         el.classList.remove('show-tooltip');
