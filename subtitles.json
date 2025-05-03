@@ -244,6 +244,77 @@
     "fidel": ["ለኔም", "ሲጋራ", "ይዘህልኝ", "ና...", "ሲጋራ?"],
     "phonetics": ["länäm", "sigara", "yəzäləñ", "na…", "sigara?"],
     "translations": ["for me too", "cigarette", "bring me", "okay…", "cigarette?"]
+  },
+  {
+    "start": "00:05:56.462",
+    "end": "00:05:59.725",
+    "fidel": ["የማነው", "ሲጋራ", "አይ", "እንትን", "ነው", "ወያላ", "ነ"],
+    "phonetics": ["yämänow", "sigära", "ay", "əntən", "nəw", "wayäla", "nä"],
+    "translations": ["whose", "cigarette", "no", "it's a tool", "is", "or what", "is"]
+  },
+  {
+    "start": "00:06:00.635",
+    "end": "00:06:02.255",
+    "fidel": ["ረዳቱ", "ነው", "በቃ", "ተወው", "ይቅር"],
+    "phonetics": ["rädatu", "nəw", "bəqa", "täwäw", "yəqər"],
+    "translations": ["his assistant", "is", "enough", "leave it", "sorry"]
+  },
+  {
+    "start": "00:06:02.662",
+    "end": "00:06:04.932",
+    "fidel": ["ለምን", "ይቀራል", "በቃ", "እኮ", "ይሀው", "ደርሻለሁ", "ቶሎ", "ና"],
+    "phonetics": ["lämən", "yəqäral", "bəqa", "əko", "yəhaw", "däršalähu", "ṭolo", "na"],
+    "translations": ["why", "it will be left", "enough", "okay", "this", "I will arrive", "quickly", "come"]
+  },
+  {
+    "start": "00:06:05.496",
+    "end": "00:06:07.249",
+    "fidel": ["እሺ", "መጣሁ", "መጣሁ…", "መጣሁ"],
+    "phonetics": ["əši", "mäṭṭahu", "mäṭṭahu…", "mäṭṭahu"],
+    "translations": ["okay", "I came", "I came…", "I came"]
+  },
+  {
+    "start": "00:06:09.946",
+    "end": "00:06:11.840",
+    "fidel": ["እንዴ", "ያማችኋል", "እንዴ", "እንዴ"],
+    "phonetics": ["əndä", "yamacc’wal", "əndä", "əndä"],
+    "translations": ["right", "you (pl.) amazed me", "right", "right"]
+  },
+  {
+    "start": "00:06:44.377",
+    "end": "00:06:45.266",
+    "fidel": ["ምንድነው", "ነገሩ"],
+    "phonetics": ["məndənäw", "nägäru"],
+    "translations": ["what is", "the matter"]
+  },
+  {
+    "start": "00:06:55.481",
+    "end": "00:06:57.350",
+    "fidel": ["እንዴ", "ምንድነው", "የተጣመመ", "ነገር!"],
+    "phonetics": ["əndä", "məndənäw", "yätäṭamämä", "nägär!"],
+    "translations": ["right", "what is", "that was delayed", "thing!"]
+  },
+  {
+    "start": "00:06:58.984",
+    "end": "00:07:00.735",
+    "fidel": ["ፍጠን", "በናትህ!", "ተረጋጋ"],
+    "phonetics": ["fəṭṭän", "bänatəh!", "tärägaga"],
+    "translations": ["hurry", "because of her!", "calm down"]
+  },
+  {
+    "start": "00:07:10.623",
+    "end": "00:07:11.461",
+    "fidel": ["ጨረስክ?"],
+    "phonetics": ["č̣äräsk?"],
+    "translations": ["Are you done?"]
+  },
+  {
+    "start": "00:07:25.998",
+    "end": "00:07:27.628",
+    "fidel": ["ሄለው...", "በሰላም", "ነው?"],
+    "phonetics": ["hélu…", "bäsälam", "nəw?"],
+    "translations": ["he left...", "in peace", "is it?"]
   }
+]
 
 ]
