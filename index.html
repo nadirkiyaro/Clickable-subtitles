@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amharic Clickable Subtitles</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .subtitle { margin: 5px 0; cursor: pointer; }
+        .amharic { font-size: 20px; }
+        .phonetic, .english { font-size: 16px; color: gray; }
+    </style>
+</head>
+<body>
+    <h1>Learn Amharic Through Video</h1>
+    <video id="video" width="600" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+    <div id="subtitles"></div>
+
+    <script>
+        const video = document.getElementById('video');
+
+        fetch('subtitles.json')
+            .then(response => response.json())
+            .then(subtitles => {
+                const container = document.getElementById('subtitles');
+                subtitles.forEach(item => {
+                    const line = document.createElement('div');
+                    line.className = 'subtitle';
+                    line.innerHTML = `
+                        <div class="amharic">${item.amharic}</div>
+                        <div class="phonetic">${item.phonetic}</div>
+                        <div class="english">${item.english}</div>
+                    `;
+                    line.addEventListener('click', () => {
+                        video.currentTime = item.time;
+                        video.pause();
+                        alert(`Amharic: ${item.amharic}\nPhonetic: ${item.phonetic}\nEnglish: ${item.english}`);
+                    });
+                    container.appendChild(line);
+                });
+            });
+    </script>
+</body>
+</html>

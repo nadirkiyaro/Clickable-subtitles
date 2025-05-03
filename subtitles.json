@@ -1,0 +1,20 @@
+[
+  {
+    "time": 0,
+    "amharic": "ሰላም",
+    "phonetic": "Selam",
+    "english": "Hello"
+  },
+  {
+    "time": 3,
+    "amharic": "እንዴት ነህ?",
+    "phonetic": "Endet neh?",
+    "english": "How are you?"
+  },
+  {
+    "time": 6,
+    "amharic": "ደህና ነኝ",
+    "phonetic": "Dehna neny",
+    "english": "I’m fine"
+  }
+]
