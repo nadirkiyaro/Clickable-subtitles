@@ -1,5 +1,12 @@
 [
   {
+    "start": "00:00:00.000",
+    "end": "00:01:00.000",
+    "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
+    "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"],
+    "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]
+  },
+  {
     "start": "00:02:29.000",
     "end": "00:02:34.500",
     "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
