@@ -45,5 +45,75 @@
       "my",
       "dear"
     ]
+  },
+  {
+    "start": "00:03:08.800",
+    "end": "00:03:12.000",
+    "fidel": ["ገና", "አልወጣህም", "እንዴ", "ከቢሮ?"],
+    "phonetics": ["gänä", "alwäṭṭahäm", "əndä", "käbiro?"],
+    "translations": ["still", "you haven't left", "right?", "from the office?"]
+  },
+  {
+    "start": "00:03:12.100",
+    "end": "00:03:14.500",
+    "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው"],
+    "phonetics": ["ṭənəš", "səra", "yəžä", "nəw"],
+    "translations": ["a little", "work", "carrying", "it is"]
+  },
+  {
+    "start": "00:03:14.600",
+    "end": "00:03:16.800",
+    "fidel": ["ታመሻለህ?"],
+    "phonetics": ["ṭamäšaläh?"],
+    "translations": ["Are you sick?"]
+  },
+  {
+    "start": "00:03:16.900",
+    "end": "00:03:19.000",
+    "fidel": ["አሁን", "አሁን", "ልወጣ", "ነው"],
+    "phonetics": ["ahün", "ahün", "ləwäṭṭa", "nəw"],
+    "translations": ["now", "now", "to leave", "it is"]
+  },
+  {
+    "start": "00:03:19.100",
+    "end": "00:03:21.000",
+    "fidel": ["ቶሎ", "ና!"],
+    "phonetics": ["ṭolo", "na!"],
+    "translations": ["hurry", "come!"]
+  },
+  {
+    "start": "00:03:21.100",
+    "end": "00:03:23.500",
+    "fidel": ["እሽ", "እሽ", "ይሄው", "በቃ", "ወጣሁ"],
+    "phonetics": ["əš", "əš", "yəhew", "bəqa", "wäṭṭahu"],
+    "translations": ["okay", "okay", "this", "enough", "I left"]
+  },
+  {
+    "start": "00:03:23.600",
+    "end": "00:03:25.000",
+    "fidel": ["አታምሽ", "እሺ?"],
+    "phonetics": ["atäməš", "əši?"],
+    "translations": ["don't forget", "okay?"]
+  },
+  {
+    "start": "00:03:25.100",
+    "end": "00:03:26.500",
+    "fidel": ["እሺ", "…", "እንዴ!"],
+    "phonetics": ["əši", "…", "əndä!"],
+    "translations": ["okay", "…", "right!"]
+  },
+  {
+    "start": "00:03:26.600",
+    "end": "00:03:28.000",
+    "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
+    "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
+    "translations": ["right", "we", "eating", "not", "right"]
+  },
+  {
+    "start": "00:03:28.100",
+    "end": "00:03:30.000",
+    "fidel": ["እሺ", "ቁረጥ"],
+    "phonetics": ["əši", "qureṭ"],
+    "translations": ["okay", "cut"]
   }
 ]
