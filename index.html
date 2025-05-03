@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amharic Clickable Subtitles</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2em; line-height: 1.5; }
+    .subtitle { cursor: pointer; margin: 0.5em 0; }
+    .details { display: none; margin-left: 1em; color: gray; }
+  </style>
+</head>
+<body>
+  <h1>Clickable Amharic Subtitles</h1>
+  <div id="subtitles"></div>
+  <script>
+    fetch('besintu_ep1_subtitles_with_phonetics.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('subtitles');
+        data.forEach(entry => {
+          const line = document.createElement('div');
+          line.className = 'subtitle';
+          const words = entry.words.map(word => {
+            const span = document.createElement('span');
+            span.textContent = word.text + " ";
+            span.style.fontWeight = 'bold';
+            span.onclick = () => {
+              const details = span.querySelector('.details');
+              details.style.display = details.style.display === 'none' ? 'block' : 'none';
+            };
+            const details = document.createElement('div');
+            details.className = 'details';
+            details.innerHTML = `<div><strong>Phonetic:</strong> ${word.phonetic || '(unknown)'}</div>
+                                 <div><strong>English:</strong> ${word.translation || '(unknown)'}</div>`;
+            span.appendChild(details);
+            return span.outerHTML;
+          }).join('');
+          line.innerHTML = words;
+          container.appendChild(line);
+        });
+      });
+  </script>
+</body>
+</html>
