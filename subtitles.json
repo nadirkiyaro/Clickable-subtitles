@@ -2,49 +2,16 @@
   {
     "start": "00:02:29.000",
     "end": "00:02:34.500",
-    "fidel": [
-      "ወጣ",
-      "ወጣ",
-      "ፈጠን",
-      "ፈጠን",
-      "ጊዜ",
-      "የለም"
-    ],
-    "phonetics": [
-      "wäṭṭa",
-      "wäṭṭa",
-      "fəṭṭän",
-      "fəṭṭän",
-      "gizé",
-      "yäläm"
-    ],
-    "translations": [
-      "He went",
-      "He went",
-      "quickly",
-      "quickly",
-      "time",
-      "there is none"
-    ]
+    "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
+    "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"],
+    "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]
   },
   {
     "start": "00:03:06.120",
     "end": "00:03:08.700",
-    "fidel": [
-      "ሄለው",
-      "የኔ",
-      "ውድ"
-    ],
-    "phonetics": [
-      "hélu",
-      "yäne",
-      "wəd"
-    ],
-    "translations": [
-      "Hello",
-      "my",
-      "dear"
-    ]
+    "fidel": ["ሄለው", "የኔ", "ውድ"],
+    "phonetics": ["hélu", "yäne", "wəd"],
+    "translations": ["Hello", "my", "dear"]
   },
   {
     "start": "00:03:08.800",
@@ -115,5 +82,61 @@
     "fidel": ["እሺ", "ቁረጥ"],
     "phonetics": ["əši", "qureṭ"],
     "translations": ["okay", "cut"]
+  },
+  {
+    "start": "00:03:30.100",
+    "end": "00:03:32.000",
+    "fidel": ["ይሄው", "በቃ", "ወጣሁ"],
+    "phonetics": ["yəhew", "bəqa", "wäṭṭahu"],
+    "translations": ["this", "enough", "I left"]
+  },
+  {
+    "start": "00:03:32.100",
+    "end": "00:03:34.000",
+    "fidel": ["አታምሽ", "እሺ?"],
+    "phonetics": ["atäməš", "əši?"],
+    "translations": ["don't forget", "okay?"]
+  },
+  {
+    "start": "00:03:34.100",
+    "end": "00:03:36.000",
+    "fidel": ["እሺ", "…", "እንዴ!"],
+    "phonetics": ["əši", "…", "əndä!"],
+    "translations": ["okay", "…", "right!"]
+  },
+  {
+    "start": "00:03:36.100",
+    "end": "00:03:38.000",
+    "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
+    "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
+    "translations": ["right", "we", "eating", "not", "right"]
+  },
+  {
+    "start": "00:03:38.100",
+    "end": "00:03:40.000",
+    "fidel": ["እሺ", "ቁረጥ"],
+    "phonetics": ["əši", "qureṭ"],
+    "translations": ["okay", "cut"]
+  },
+  {
+    "start": "00:03:40.100",
+    "end": "00:03:42.000",
+    "fidel": ["ይሄው!"],
+    "phonetics": ["yəhew!"],
+    "translations": ["this!"]
+  },
+  {
+    "start": "00:03:42.100",
+    "end": "00:03:44.000",
+    "fidel": ["አፍጥነው", "ባክህ!", "አፍጥነው!"],
+    "phonetics": ["äfṭənäw", "bäkä!", "äfṭənäw!"],
+    "translations": ["hurry up", "please!", "hurry up!"]
+  },
+  {
+    "start": "00:03:44.100",
+    "end": "00:03:46.000",
+    "fidel": ["እሺ", "እሽ"],
+    "phonetics": ["əši", "əš"],
+    "translations": ["okay", "okay"]
   }
 ]
