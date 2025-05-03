@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amharic Subtitles with Phonetics & Clicks</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    #player { margin-bottom: 20px; }
+    .subtitle { text-align: center; margin: 20px 0; }
+    .amharic, .phonetic { font-size: 24px; }
+    .amharic .word, .phonetic .word { cursor: pointer; padding: 2px 4px; border-radius: 4px; }
+    .amharic .word:hover, .phonetic .word:hover { background-color: #f0f0f0; }
+    .phonetic { font-size: 20px; color: #555; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Learn Amharic with Besintu - Phonetics & Clickable Words</h1>
+  <div id="player"></div>
+  <div id="subtitle" class="subtitle">
+    <div class="amharic"></div>
+    <div class="phonetic"></div>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let player;
+    let subtitles = [];
+    let currentIndex = -1;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        height: '400',
+        width: '100%',
+        videoId: 'KTZYUfPazdw',
+        playerVars: { start: 20, rel: 0 },
+        events: { 'onReady': onPlayerReady }
+      });
+    }
+
+    function onPlayerReady(event) {
+      fetch('besintu_ep1_subtitles_full_phonetics.json')
+        .then(response => response.json())
+        .then(data => {
+          subtitles = data;
+          setInterval(updateSubtitle, 300);
+        });
+    }
+
+    function updateSubtitle() {
+      if (!player || !subtitles.length) return;
+      const time = player.getCurrentTime();
+      let nextIndex = -1;
+      for (let i = 0; i < subtitles.length; i++) {
+        if (time >= subtitles[i].start && time < (subtitles[i + 1]?.start || Infinity)) {
+          nextIndex = i;
+          break;
+        }
+      }
+      if (nextIndex !== currentIndex) {
+        currentIndex = nextIndex;
+        displaySubtitle(currentIndex);
+      }
+    }
+
+    function displaySubtitle(index) {
+      const amharicDiv = document.querySelector('.amharic');
+      const phoneticDiv = document.querySelector('.phonetic');
+      amharicDiv.innerHTML = '';
+      phoneticDiv.innerHTML = '';
+      if (index < 0 || index >= subtitles.length) return;
+
+      const line = subtitles[index];
+
+      line.words.forEach(word => {
+        const wordSpan = document.createElement('span');
+        wordSpan.className = 'word';
+        wordSpan.textContent = word.text + ' ';
+        wordSpan.onclick = () => {
+          alert(`Amharic: ${word.text}\nPhonetic: ${word.phonetic || '—'}\nEnglish: ${word.translation || '—'}`);
+        };
+        amharicDiv.appendChild(wordSpan);
+
+        const phoneticSpan = document.createElement('span');
+        phoneticSpan.className = 'word';
+        phoneticSpan.textContent = (word.phonetic || '—') + ' ';
+        phoneticSpan.onclick = wordSpan.onclick;
+        phoneticDiv.appendChild(phoneticSpan);
+      });
+    }
+  </script>
+</body>
+</html>
