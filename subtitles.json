@@ -96,7 +96,6 @@
     "phonetics": ["äfṭənäw", "əši"],
     "translations": ["hurry", "okay"]
   }, 
-  [
   {
     "start": "00:04:03.057",
     "end": "00:04:11.123",
@@ -175,8 +174,7 @@
     "fidel": ["የቤቱ", "አስተዳዳሪ", "አንተ", "ነህ", "እሷ", "ናት?"],
     "phonetics": ["yäbetu", "astädadari", "antä", "näh", "əšua", "nat?"],
     "translations": ["of the house", "manager", "you", "are", "she", "is?"]
-  }
-[
+  },
   {
     "start": "00:04:48.904",
     "end": "00:04:50.793",
