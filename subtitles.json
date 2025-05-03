@@ -1,149 +1,99 @@
 [
   {
-    "start": "00:00:00.000",
-    "end": "00:01:00.000",
-    "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
-    "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"],
-    "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]
-  },
-  {
     "start": "00:02:29.000",
     "end": "00:02:34.500",
-    "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
-    "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"],
-    "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]
-  },
-  {
-    "start": "00:03:06.120",
-    "end": "00:03:08.700",
+    "fidel": [
+      "ወጣ",
+      "ወጣ",
+      "ፈጠን",
+      "ፈጠን",
+      "ጊዜ",
+      "የለም"
+    ],
+    "phonetics": [
+      "wäṭṭa",
+      "wäṭṭa",
+      "fəṭṭän",
+      "fəṭṭän",
+      "gizé",
+      "yäläm"
+    ],
+    "translations": [
+      "He went",
+      "He went",
+      "quickly",
+      "quickly",
+      "time",
+      "there is none"
+    ]
+  },{
+    "start": "00:03:05.763",
+    "end": "00:03:07.496",
     "fidel": ["ሄለው", "የኔ", "ውድ"],
     "phonetics": ["hélu", "yäne", "wəd"],
     "translations": ["Hello", "my", "dear"]
   },
   {
-    "start": "00:03:08.800",
-    "end": "00:03:12.000",
+    "start": "00:03:07.696",
+    "end": "00:03:09.230",
     "fidel": ["ገና", "አልወጣህም", "እንዴ", "ከቢሮ?"],
     "phonetics": ["gänä", "alwäṭṭahäm", "əndä", "käbiro?"],
     "translations": ["still", "you haven't left", "right?", "from the office?"]
   },
   {
-    "start": "00:03:12.100",
-    "end": "00:03:14.500",
-    "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው"],
+    "start": "00:03:09.255",
+    "end": "00:03:10.230",
+    "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው።"],
     "phonetics": ["ṭənəš", "səra", "yəžä", "nəw"],
     "translations": ["a little", "work", "carrying", "it is"]
   },
   {
-    "start": "00:03:14.600",
-    "end": "00:03:16.800",
+    "start": "00:03:10.497",
+    "end": "00:03:11.297",
     "fidel": ["ታመሻለህ?"],
     "phonetics": ["ṭamäšaläh?"],
     "translations": ["Are you sick?"]
   },
   {
-    "start": "00:03:16.900",
-    "end": "00:03:19.000",
-    "fidel": ["አሁን", "አሁን", "ልወጣ", "ነው"],
-    "phonetics": ["ahün", "ahün", "ləwäṭṭa", "nəw"],
-    "translations": ["now", "now", "to leave", "it is"]
+    "start": "00:03:11.430",
+    "end": "00:03:16.030",
+    "fidel": ["አሁን", "አሁን", "ልወጣ", "ነው።", "ልወጣ", "ነው።"],
+    "phonetics": ["ahün", "ahün", "ləwäṭṭa", "nəw", "ləwäṭṭa", "nəw"],
+    "translations": ["now", "now", "to leave", "it is", "to leave", "it is"]
   },
   {
-    "start": "00:03:19.100",
-    "end": "00:03:21.000",
+    "start": "00:03:16.230",
+    "end": "00:03:17.096",
     "fidel": ["ቶሎ", "ና!"],
     "phonetics": ["ṭolo", "na!"],
     "translations": ["hurry", "come!"]
   },
   {
-    "start": "00:03:21.100",
-    "end": "00:03:23.500",
-    "fidel": ["እሽ", "እሽ", "ይሄው", "በቃ", "ወጣሁ"],
-    "phonetics": ["əš", "əš", "yəhew", "bəqa", "wäṭṭahu"],
-    "translations": ["okay", "okay", "this", "enough", "I left"]
+    "start": "00:03:17.121",
+    "end": "00:03:22.363",
+    "fidel": ["እሽ", "ይሄው", "በቃ", "ወጣሁ", "አታምሽ", "እሺ?", "እሺ", "እንዴ!"],
+    "phonetics": ["əš", "yəhew", "bəqa", "wäṭṭahu", "atäməš", "əši?", "əši", "əndä!"],
+    "translations": ["okay", "this", "enough", "I left", "don’t forget", "okay?", "okay", "right!"]
   },
   {
-    "start": "00:03:23.600",
-    "end": "00:03:25.000",
-    "fidel": ["አታምሽ", "እሺ?"],
-    "phonetics": ["atäməš", "əši?"],
-    "translations": ["don't forget", "okay?"]
-  },
-  {
-    "start": "00:03:25.100",
-    "end": "00:03:26.500",
-    "fidel": ["እሺ", "…", "እንዴ!"],
-    "phonetics": ["əši", "…", "əndä!"],
-    "translations": ["okay", "…", "right!"]
-  },
-  {
-    "start": "00:03:26.600",
-    "end": "00:03:28.000",
+    "start": "00:03:26.430",
+    "end": "00:03:30.497",
     "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
     "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
-    "translations": ["right", "we", "eating", "not", "right"]
+    "translations": ["right", "we", "are eating", "it is not", "right"]
   },
   {
-    "start": "00:03:28.100",
-    "end": "00:03:30.000",
-    "fidel": ["እሺ", "ቁረጥ"],
-    "phonetics": ["əši", "qureṭ"],
-    "translations": ["okay", "cut"]
+    "start": "00:03:30.963",
+    "end": "00:03:35.830",
+    "fidel": ["እሺ", "ቁረጥ", "ይሄው"],
+    "phonetics": ["əši", "qureṭ", "yəhew"],
+    "translations": ["okay", "cut", "this"]
   },
   {
-    "start": "00:03:30.100",
-    "end": "00:03:32.000",
-    "fidel": ["ይሄው", "በቃ", "ወጣሁ"],
-    "phonetics": ["yəhew", "bəqa", "wäṭṭahu"],
-    "translations": ["this", "enough", "I left"]
-  },
-  {
-    "start": "00:03:32.100",
-    "end": "00:03:34.000",
-    "fidel": ["አታምሽ", "እሺ?"],
-    "phonetics": ["atäməš", "əši?"],
-    "translations": ["don't forget", "okay?"]
-  },
-  {
-    "start": "00:03:34.100",
-    "end": "00:03:36.000",
-    "fidel": ["እሺ", "…", "እንዴ!"],
-    "phonetics": ["əši", "…", "əndä!"],
-    "translations": ["okay", "…", "right!"]
-  },
-  {
-    "start": "00:03:36.100",
-    "end": "00:03:38.000",
-    "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
-    "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
-    "translations": ["right", "we", "eating", "not", "right"]
-  },
-  {
-    "start": "00:03:38.100",
-    "end": "00:03:40.000",
-    "fidel": ["እሺ", "ቁረጥ"],
-    "phonetics": ["əši", "qureṭ"],
-    "translations": ["okay", "cut"]
-  },
-  {
-    "start": "00:03:40.100",
-    "end": "00:03:42.000",
-    "fidel": ["ይሄው!"],
-    "phonetics": ["yəhew!"],
-    "translations": ["this!"]
-  },
-  {
-    "start": "00:03:42.100",
-    "end": "00:03:44.000",
-    "fidel": ["አፍጥነው", "ባክህ!", "አፍጥነው!"],
-    "phonetics": ["äfṭənäw", "bäkä!", "äfṭənäw!"],
-    "translations": ["hurry up", "please!", "hurry up!"]
-  },
-  {
-    "start": "00:03:44.100",
-    "end": "00:03:46.000",
-    "fidel": ["እሺ", "እሽ"],
-    "phonetics": ["əši", "əš"],
-    "translations": ["okay", "okay"]
+    "start": "00:03:42.097",
+    "end": "00:03:46.230",
+    "fidel": ["አፍጥነው", "እሺ"],
+    "phonetics": ["äfṭənäw", "əši"],
+    "translations": ["hurry", "okay"]
   }
 ]
