@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clickable Amharic Subtitles</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .subtitle { display: none; margin-bottom: 20px; }
+    .word { cursor: pointer; color: blue; position: relative; }
+    .tooltip {
+      display: none;
+      position: absolute;
+      background: #eee;
+      border: 1px solid #ccc;
+      padding: 4px 6px;
+      border-radius: 4px;
+      top: -1.5em;
+      left: 0;
+      z-index: 10;
+      white-space: nowrap;
+    }
+    .word.show .tooltip { display: inline; }
+    iframe { display: block; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Clickable Amharic Subtitles</h1>
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/NMCn_9t2OMc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+  <div id="subtitles"></div>
+
+  <script>
+    const subtitles = [{"start": "00:02:29.000", "end": "00:02:34.500", "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"], "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"], "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]}, {"start": "00:03:06.120", "end": "00:03:08.700", "fidel": ["ሄለው", "የኔ", "ውድ"], "phonetics": ["hélu", "yäne", "wəd"], "translations": ["Hello", "my", "dear"]}];
+    const container = document.getElementById("subtitles");
+
+    subtitles.forEach((sub, index) => {
+      const block = document.createElement("div");
+      block.className = "subtitle";
+      block.dataset.index = index;
+
+      const fidelDiv = document.createElement("div");
+      fidelDiv.innerHTML = sub.fidel.map((word, i) => `
+        <span class='word' onclick='this.classList.toggle("show")'>
+          ${word}
+          <span class='tooltip'>${sub.translations[i]}</span>
+        </span>
+      `).join(' ');
+      block.appendChild(fidelDiv);
+
+      const phoneticDiv = document.createElement("div");
+      phoneticDiv.innerHTML = sub.phonetics.map((word, i) => `
+        <span class='word' onclick='this.classList.toggle("show")'>
+          ${word}
+          <span class='tooltip'>${sub.translations[i]}</span>
+        </span>
+      `).join(' ');
+      block.appendChild(phoneticDiv);
+
+      container.appendChild(block);
+    });
+
+    function parseTime(t) {
+      const [h, m, s] = t.split(':').map(Number);
+      return h * 3600 + m * 60 + s;
+    }
+
+    function updateSubtitles(time) {
+      document.querySelectorAll(".subtitle").forEach((el, i) => {
+        const sub = subtitles[i];
+        const start = parseTime(sub.start);
+        const end = parseTime(sub.end);
+        el.style.display = (time >= start && time <= end) ? 'block' : 'none';
+      });
+    }
+
+    let player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('video', {
+        events: {
+          'onReady': onPlayerReady,
+          'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+
+    function onPlayerReady(event) {
+      setInterval(() => {
+        const currentTime = player.getCurrentTime();
+        updateSubtitles(currentTime);
+      }, 500);
+    }
+
+    function onPlayerStateChange(event) {}
+
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.body.appendChild(tag);
+  </script>
+</body>
+</html>
