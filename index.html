@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Synced Amharic Subtitles</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    #player { margin-bottom: 20px; }
+    .subtitle { font-size: 24px; padding: 10px; border: 2px solid #ccc; border-radius: 10px; text-align: center; }
+    .word { cursor: pointer; padding: 2px; border-radius: 4px; }
+    .word:hover { background-color: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Learn Amharic with Besintu - Synced Subtitles</h1>
+  <div id="player"></div>
+  <div id="subtitle" class="subtitle"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let player;
+    let subtitles = [];
+    let currentIndex = -1;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        height: '400',
+        width: '100%',
+        videoId: 'KTZYUfPazdw',
+        playerVars: { start: 20, rel: 0 },
+        events: { 'onReady': onPlayerReady }
+      });
+    }
+
+    function onPlayerReady(event) {
+      fetch('besintu_ep1_subtitles_with_phonetics.json')
+        .then(response => response.json())
+        .then(data => {
+          subtitles = data;
+          setInterval(updateSubtitle, 300);
+        });
+    }
+
+    function updateSubtitle() {
+      if (!player || !subtitles.length) return;
+      const time = player.getCurrentTime();
+      let nextIndex = -1;
+      for (let i = 0; i < subtitles.length; i++) {
+        if (time >= subtitles[i].start && time < (subtitles[i + 1]?.start || Infinity)) {
+          nextIndex = i;
+          break;
+        }
+      }
+      if (nextIndex !== currentIndex) {
+        currentIndex = nextIndex;
+        displaySubtitle(currentIndex);
+      }
+    }
+
+    function displaySubtitle(index) {
+      const container = document.getElementById('subtitle');
+      container.innerHTML = '';
+      if (index < 0 || index >= subtitles.length) return;
+      const line = subtitles[index];
+      line.words.forEach(word => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = word.text + ' ';
+        span.onclick = () => {
+          alert(`Amharic: ${word.text}\nPhonetic: ${word.phonetic || '—'}\nEnglish: ${word.translation || '—'}`);
+        };
+        container.appendChild(span);
+      });
+    }
+  </script>
+</body>
+</html>
