@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,22 +32,33 @@
     .word.show .tooltip {
       display: inline;
     }
-    iframe {
-      display: block;
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
       margin-bottom: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
   <h1>Clickable Amharic Subtitles</h1>
-  <iframe
-    id="video"
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/NMCn_9t2OMc?enablejsapi=1"
-    frameborder="0"
-    allowfullscreen
-  ></iframe>
+
+  <div class="video-container">
+    <iframe
+      id="video"
+      src="https://www.youtube.com/embed/NMCn_9t2OMc?enablejsapi=1"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
 
   <div id="subtitles"></div>
 
