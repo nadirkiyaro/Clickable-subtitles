@@ -306,5 +306,56 @@
     "fidel": ["ምንድን", "ነው", "ምታለከልከው", "እ?"],
     "phonetics": ["məndən", "nəw", "m’täläkälkaw", "ə?"],
     "translations": ["what", "is", "you’re blocking", "eh?"]
+  },
+  {
+    "start": "00:07:38.408",
+    "end": "00:07:41.246",
+    "fidel": ["መንገዱ", "ነዋ", "እየሄድኩ", "በእግሬ", "አይደል", "እንዴ", "ነው"],
+    "phonetics": ["mängädu", "nawa", "əyyähēdku", "bä’əgri", "aydal", "əndä", "nəw"],
+    "translations": ["the road", "is", "while I was walking", "on foot", "not", "right?", "it is"]
+  },
+  {
+    "start": "00:07:41.753",
+    "end": "00:07:43.753",
+    "fidel": ["እሺ!", "እሺ", "እሺ", "መጣሁ", "መጣሁ"],
+    "phonetics": ["əši!", "əši", "əši", "mäṭṭahu", "mäṭṭahu"],
+    "translations": ["okay!", "okay", "okay", "I came", "I came"]
   }
+    [
+  {
+    "start": "00:08:11.913",
+    "end": "00:08:14.829",
+    "fidel": ["ምንድነው", "ምንድነው", "ምንድነው", "ነገሩ"],
+    "phonetics": ["məndənäw", "məndənäw", "məndənäw", "nägäru"],
+    "translations": ["what is it", "what is it", "what is it", "the issue"]
+  },
+  {
+    "start": "00:08:32.298",
+    "end": "00:08:36.511",
+    "fidel": ["ሄለው", "ወዬ", "ሰፈር", "ደረስኩ", "ካልከኝ", "ጊዜ", "አለህ", "እንዴ"],
+    "phonetics": ["hélu", "wäyé", "säfär", "däräsku", "kälkäñ", "gizé", "äläh", "əndä"],
+    "translations": ["he left", "oh no", "neighborhood", "I arrived", "if not for me", "time", "you had", "right?"]
+  },
+  {
+    "start": "00:08:37.517",
+    "end": "00:08:40.763",
+    "fidel": ["ይሀው", "በር", "ላይ", "ነኝ", "እንዴ", "በጣም", "አስጨነከኝ", "እኮ"],
+    "phonetics": ["yəhaw", "bär", "lay", "nän", "əndä", "bäṭam", "asč̣änäkän", "əko"],
+    "translations": ["here", "gate", "on", "I am", "right", "very", "you stressed me", "okay"]
+  },
+  {
+    "start": "00:08:41.485",
+    "end": "00:08:43.389",
+    "fidel": ["እኔ", "ደግሞ", "የሆነ", "ነገር", "የሆንክ", "ነው", "የመሰለኝ"],
+    "phonetics": ["əne", "dägmō", "yäḥonä", "nägär", "yäḥonäk", "nəw", "yämäsäläñ"],
+    "translations": ["I", "also", "a kind of", "thing", "you became", "is", "it seemed to me"]
+  },
+  {
+    "start": "00:08:44.375",
+    "end": "00:08:47.843",
+    "fidel": ["እንደዚ", "ይደረጋል", "እንዴ", "ክፈቺው", "ክፈቺው"],
+    "phonetics": ["əndäzi", "yidärägäl", "əndä", "k’əfäčču", "k’əfäčču"],
+    "translations": ["like this", "it happens", "right", "open it", "open it"]
+  }
+]
   ]
