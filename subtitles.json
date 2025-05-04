@@ -59,7 +59,7 @@
     "start": "00:03:26.430",
     "end": "00:03:30.497",
     "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
-    "phonetics": ["əndä", "əñya", "əyyätäbälan", "aydälam", "ənde"],
+    "phonetics": ["ənde", "əñya", "əyyätäbälan", "aydälam", "ənde"],
     "translations": ["《Emphasis》", "we", "are losing/being screwed", "is it not", "《Emphasis》"]
   },
   {
@@ -116,49 +116,49 @@
     "end": "00:04:34.630",
     "fidel": ["ምን", "ላድርግ", "ታድያ", "ታክሲ", "እየጠበኩ ነው", "ስትል ነዋ!"],
     "phonetics": ["mən", "ladərg", "ṭadya", "tak’si", "əyyäṭäbəku näw", "səṭəl näwa!"],
-    "translations": ["what", "to do", "so then", "taxi", "I am waiting", "when you say that"]
+    "translations": ["what", "am I to do", "so then", "taxi", "I am waiting", "when you say that"]
   },
   {
     "start": "00:04:34.737",
     "end": "00:04:42.104",
-    "fidel": ["እኔማ", "ቦሌ", "ቦሌ", "ሜክሲኮ", "ሜክሲኮ", "ልል", "ነበር", "ምን", "ያናድድሃል?"],
-    "phonetics": ["ənéma", "bole", "bole", "Meksiko", "Meksiko", "ləl", "näbär", "mən", "yänadədihal?"],
-    "translations": ["me", "Bole", "Bole", "Mexico", "Mexico", "lal", "was", "what", "makes you nervous?"]
+    "fidel": ["እኔማ", "ቦሌ", "ቦሌ", "ሜክሲኮ", "ሜክሲኮ", "ልል ነበር", "ምን", "ያናድድሃል?"],
+    "phonetics": ["ənéma", "bole", "bole", "Meksiko", "Meksiko", "ləl näbär", "mən", "yanadəhal?"],
+    "translations": ["As for me", "Bole", "Bole", "Mexico", "Mexico", "I was about to say", "what", "makes you angry?"]
   },
   {
     "start": "00:04:42.171",
     "end": "00:04:44.727",
     "fidel": ["እኛም", "ተበልተናል", "እኮ!"],
-    "phonetics": ["əññäm", "täbältenal", "əko!"],
-    "translations": ["we also", "have eaten", "of course!"]
+    "phonetics": ["ənyäm", "täbältänal", "əko!"],
+    "translations": ["we also", "have lost. *Literally: we have been screwed*", "《For Emphasis》"]
   },
   {
     "start": "00:04:44.860",
     "end": "00:04:46.416",
     "fidel": ["ትቀልዳለህ", "እንዴ"],
-    "phonetics": ["ṭəqqäldaläh", "əndä"],
-    "translations": ["you will regret it", "right"]
+    "phonetics": ["ṭəqqäldaläh", "ənde"],
+    "translations": ["are you joking", "《Emphasis》why"]
   },
   {
     "start": "00:04:46.727",
     "end": "00:04:48.860",
     "fidel": ["የቤቱ", "አስተዳዳሪ", "አንተ", "ነህ", "እሷ", "ናት?"],
-    "phonetics": ["yäbetu", "astädadari", "antä", "näh", "əšua", "nat?"],
-    "translations": ["of the house", "manager", "you", "are", "she", "is?"]
+    "phonetics": ["yäbetu", "astädadari", "antä", "näh", "əssua", "nat?"],
+    "translations": ["of the house", "manager", "you", "are you", "she", "is she?"]
   },
   {
     "start": "00:04:48.904",
     "end": "00:04:50.793",
     "fidel": ["በቃ", "እሺ", "አፍጥነው", "አሁን"],
-    "phonetics": ["bəqa", "əši", "äfṭənäw", "ahün"],
-    "translations": ["enough", "okay", "let's hurry", "now"]
+    "phonetics": ["bäqa", "əshi", "äfṭənäw", "ahün"],
+    "translations": ["Alright then. *Literally: enough*", "okay", "Make it quick", "now"]
   },
   {
     "start": "00:05:27.551",
     "end": "00:05:29.624",
     "fidel": ["ሄለው…", "ወዬ", "የኔ", "ውድ"],
-    "phonetics": ["hélu…", "wäyé", "yäne", "wəd"],
-    "translations": ["he left", "oh no", "my", "dear"]
+    "phonetics": ["hello…", "wäyé", "yänne", "wud"],
+    "translations": ["He left", "Yes! 《when someone calls your name》", "my", "dear"]
   },
   {
     "start": "00:05:31.525",
