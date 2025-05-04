@@ -221,21 +221,21 @@
     "end": "00:05:59.725",
     "fidel": ["የማነው", "ሲጋራ", "አይ", "እንትን", "ነው", "ወያላ", "ነው"],
     "phonetics": ["yämänow", "sigära", "...ay", "əntən", "nåw", "wayälla", "näw"],
-    "translations": ["For whom", "cigarette", "...no", "Uhh...*filler word*", "is", "driver's assistant - *but offensive*", "is"]
+    "translations": ["Whose", "cigarette", "...no", "Umm...*filler word*", "is", "driver's assistant - *but offensive*", "is"]
   },
   {
     "start": "00:06:00.635",
     "end": "00:06:02.255",
     "fidel": ["ረዳቱ", "ነው", "በቃ", "ተወው", "ይቅር"],
-    "phonetics": ["rädatu", "nəw", "bəqa", "täwäw", "yəqər"],
-    "translations": ["his assistant", "is", "enough", "leave it", "sorry"]
+    "phonetics": ["rädatu", "näw", "bäqa", "täwäw", "yəqər"],
+    "translations": ["his assistant - *polite*", "is", "alright", "leave it", "leave it"]
   },
   {
     "start": "00:06:02.662",
     "end": "00:06:04.932",
-    "fidel": ["ለምን", "ይቀራል", "በቃ", "እኮ", "ይሀው", "ደርሻለሁ", "ቶሎ", "ና"],
-    "phonetics": ["lämən", "yəqäral", "bəqa", "əko", "yəhaw", "däršalähu", "ṭolo", "na"],
-    "translations": ["why", "it will be left", "enough", "okay", "this", "I will arrive", "quickly", "come"]
+    "fidel": ["ለምን", "ይቀራል", "በቃ", "እኮ", "ይሀው", "ደርሻለሁ", "...ቶሎ", "ና"],
+    "phonetics": ["lämən", "yəqäral", "bäqa", "əko", "yəhäw", "därshalähu", "...ṭolo", "na"],
+    "translations": ["why", "will it be left", "no", "《Emphasis》", "here", "I have arrived", "quickly", "come"]
   }, 
   {
     "start": "00:06:05.496",
