@@ -541,9 +541,9 @@
   {
     "start": "00:12:17.850",
     "end": "00:12:19.440",
-    "fidel": ["አንተ", "ጋር", "ነው", "እንዴ?", "እንዴ", "እኔ", "ጋር", "ቢኖር", "አልከፍተውም", "እንዴ"],
-    "phonetics": ["antä", "gar", "nəw", "əndä?", "əndä", "əne", "gar", "binor", "alkäftäwəm", "əndä"],
-    "translations": ["you", "with", "is", "right?", "right", "I", "with", "if it was", "I wouldn’t open", "right"]
+    "fidel": ["አረባክሽ", "ክፈቺልኝ", "ብርዱ", "ገደለኝ"],
+    "phonetics": ["ere bakesh", "kefechilegn", "beredu", "gedelegn"],
+    "translations": ["please", "open it for me", "the cold", "is killing me"]
   },
   {
     "start": "00:12:20.215",
