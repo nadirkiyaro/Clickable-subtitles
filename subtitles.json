@@ -186,42 +186,42 @@
     "end": "00:05:43.573",
     "fidel": ["እኮ", "የት", "ደረስክ?", "እ", "አሁን", "ሱፐር-ማርኬቱ", "ጋር", "እየደረስኩ ነው"],
     "phonetics": ["əko", "yät", "däräsk?", "ə", "ahün", "...super-marketu", "gar", "əyyädäräsku näw"],
-    "translations": ["Right!", "where", "have you reached?", "uh", "now", "...the supermarket", "arounf", "I am arriving"]
+    "translations": ["Right!", "where", "have you reached?", "uh", "now", "...the supermarket", "around", "I am arriving"]
   },
   {
     "start": "00:05:44.746",
     "end": "00:05:45.746",
     "fidel": ["ከምኔው", "ደረሰ"],
-    "phonetics": ["kämménäw", "däräsa"],
-    "translations": ["from mine", "arrived"]
+    "phonetics": ["kämmənew", "därässa"],
+    "translations": ["How come?", "he arrived"]
   },
   {
     "start": "00:05:47.961",
     "end": "00:05:50.020",
     "fidel": ["ተወውና", "ና", "ዳቦውን", "አይ", "ለምን", "ለምን"],
-    "phonetics": ["täwäwna", "na", "dabown", "ay", "lämən", "lämən"],
-    "translations": ["leave it", "come", "the bread", "no", "why", "why"]
+    "phonetics": ["täwäwna", "na", "dabown", "...ay", "lämmən", "lämən"],
+    "translations": ["leave it", "come", "the bread", "...no", "why", "why"]
   },
   {
     "start": "00:05:50.223",
     "end": "00:05:54.243",
-    "fidel": ["እንዴ", "አይ", "ገብቼ", "pick", "ማረግ", "እኮ", "ነው።", "ታክሲ", "ስላጣሁ", "ነው", "በቃ", "ደርሻለሁ"],
-    "phonetics": ["əndä", "ay", "gäbčče", "pick", "märäg", "əko", "nəw", "tak’si", "səläṭṭahu", "nəw", "bəqa", "däršalähu"],
-    "translations": ["right", "no", "going in", "pick", "up", "of course", "it is", "taxi", "because I missed", "it is", "enough", "I will arrive"]
+    "fidel": ["እንዴ", "አይ", "ገብቼ", "pick ማረግ", "እኮ", "ነው።", "ታክሲ", "ስላጣሁ", "ነው", "በቃ", "ደርሻለሁ"],
+    "phonetics": ["ənde", "ay", "gäbche", "pick märäg", "əko", "nəw", "tak’si", "səläṭṭ'ahu", "nəw", "bäqa", "därəshallähu"],
+    "translations": ["why not", "no", "I go and then...", "to pick up", "《Emphasis》", "it is", "taxi", "because I can't find", "it is", "Alright then/No more", "I have arrived"]
   },
   {
     "start": "00:05:54.321",
     "end": "00:05:55.874",
     "fidel": ["ለኔም", "ሲጋራ", "ይዘህልኝ", "ና...", "ሲጋራ?"],
-    "phonetics": ["länäm", "sigara", "yəzäləñ", "na…", "sigara?"],
-    "translations": ["for me too", "cigarette", "bring me", "okay…", "cigarette?"]
+    "phonetics": ["länäm", "sigara", "yəzäləñ", "na…", "...sigara?"],
+    "translations": ["for me too", "cigarette", "while bringing me", "come…", "cigarette?"]
   },
   {
     "start": "00:05:56.462",
     "end": "00:05:59.725",
-    "fidel": ["የማነው", "ሲጋራ", "አይ", "እንትን", "ነው", "ወያላ", "ነ"],
-    "phonetics": ["yämänow", "sigära", "ay", "əntən", "nəw", "wayäla", "nä"],
-    "translations": ["whose", "cigarette", "no", "it's a tool", "is", "or what", "is"]
+    "fidel": ["የማነው", "ሲጋራ", "አይ", "እንትን", "ነው", "ወያላ", "ነው"],
+    "phonetics": ["yämänow", "sigära", "...ay", "əntən", "nåw", "wayälla", "näw"],
+    "translations": ["For whom", "cigarette", "...no", "Uhh...*filler word*", "is", "driver's assistant - *but offensive*", "is"]
   },
   {
     "start": "00:06:00.635",
