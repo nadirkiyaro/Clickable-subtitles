@@ -4,7 +4,7 @@
     "end": "00:02:34.500",
     "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
     "phonetics": ["wät'a", "wät'a", "fäṭṭän", "fätṭ'än", "gizé", "yäläm"],
-    "translations": ["Get 《your money》 out", "Out your money", "*quickly*", "quickly", "time", "there is none"]
+    "translations": ["Get 《your money》 out", "Out 《your money》", "quickly", "quickly", "time", "there is none"]
   },
   {
     "start": "00:03:05.763",
@@ -18,14 +18,14 @@
     "end": "00:03:09.230",
     "fidel": ["ገና", "አልወጣህም", "እንዴ", "ከቢሮ?"],
     "phonetics": ["gänä", "alwäṭṭ'ahm", "ənde", "käbiro?"],
-    "translations": ["still", "you haven't left", "<Emphasis>", "from the office?"]
+    "translations": ["still", "you haven't left", "《Emphasis》", "from the office?"]
   },
   {
     "start": "00:03:09.255",
     "end": "00:03:10.230",
     "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው።"],
     "phonetics": ["ṭənəš", "səra", "yəžä", "nəw"],
-    "translations": ["a little", "work", "carrying/holding", "it is"]
+    "translations": ["a little", "work", "I am carrying/holding", "it is"]
   },
   {
     "start": "00:03:10.497",
@@ -60,63 +60,63 @@
     "end": "00:03:30.497",
     "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
     "phonetics": ["əndä", "əñya", "əyyätäbälan", "aydälam", "ənde"],
-    "translations": ["Emphasis", "we", "are losing/screwed", "is it not", "Emphasis"]
+    "translations": ["《Emphasis》", "we", "are losing/being screwed", "is it not", "《Emphasis》"]
   },
   {
     "start": "00:03:30.963",
     "end": "00:03:35.830",
     "fidel": ["እሺ", "ቁረጥ", "...ይሄው"],
     "phonetics": ["əshi", "qureṭ", "...yəhew"],
-    "translations": ["okay", "start. literally: cut", "Here you go"]
+    "translations": ["okay", "start. 《literally: cut》", "Here you go"]
   },
   {
     "start": "00:03:42.097",
     "end": "00:03:46.230",
     "fidel": ["አፍጥነው", "እሺ"],
-    "phonetics": ["äfṭənäw", "əši"],
-    "translations": ["hurry", "okay"]
+    "phonetics": ["äfṭənäw", "əshi"],
+    "translations": ["hurry up", "okay then"]
   },
   {
     "start": "00:04:03.057",
     "end": "00:04:11.123",
     "fidel": ["ሽ", "ሽ", "አንዴ", "አንዴ", "ሃለው"],
-    "phonetics": ["š", "š", "andä", "andä", "haläw"],
-    "translations": ["shh", "shh", "hey", "hey", "he's gone"]
+    "phonetics": ["sh", "sh", "ande", "ande", "Hello"],
+    "translations": ["shh", "shh", "one sec", "one sec", "Hello"]
   },
   {
     "start": "00:04:11.323",
     "end": "00:04:13.190",
-    "fidel": ["ታክሲ", "እየጠበኩ", "ነው"],
-    "phonetics": ["tak’si", "əyyäṭäbəku", "nəw"],
-    "translations": ["taxi", "waiting", "it is"]
+    "fidel": ["ታክሲ", "እየጠበኩ ነው"],
+    "phonetics": ["tak’si", "əyyäṭ'äbəku näw"],
+    "translations": ["taxi", "I am waiting"]
   },
   {
     "start": "00:04:13.790",
     "end": "00:04:18.456",
-    "fidel": ["ማሬ", "ዳቦ", "ይዘህ", "መምጣት", "ትችላለህ?", "ዳቦ?"],
-    "phonetics": ["maré", "dabo", "yəzzäh", "mämt’at", "ṭəč̣č̣äläh?", "dabo?"],
-    "translations": ["my love", "bread", "holding", "to come", "can you?", "bread?"]
+    "fidel": ["ማሬ", "ዳቦ", "ይዘህ", "መምጣት", "ትችላለህ?", "...ዳቦ?"],
+    "phonetics": ["maré", "dabo", "yəzzäh", "mämt’at", "ṭəč̣həlalläh?", "...dabo?"],
+    "translations": ["my honey", "bread", "holding/carrying", "to come", "can you?", "bread?"]
   },
   {
     "start": "00:04:18.523",
     "end": "00:04:28.230",
     "fidel": ["እ", "slice", "ዳቦ", "የተቆረጠ", "ዳቦ", "እሺ", "እሺ", "ይዤ", "እመጣለሁ", "ይዤ", "እመጣለሁ", "እሺ", "እሺ", "ቻው", "ቻው!"],
-    "phonetics": ["ə", "slice", "dabo", "yätäqoräṭä", "dabo", "əši", "əši", "yəžä", "əmmäṭṭaləhu", "yəžä", "əmmäṭṭaləhu", "əši", "əši", "č̣aw", "č̣aw!"],
+    "phonetics": ["ə", "slice", "dabo", "yätäqoräṭä", "dabo", "əshi", "əshi", "yəže", "əmmäṭṭ'a1ähu", "yəžä", "əmmäṭṭaləhu", "əshi", "əshi", "chaw","chaw!"],
     "translations": ["uh", "slice", "bread", "that is cut", "bread", "okay", "okay", "carrying", "I will come", "carrying", "I will come", "okay", "okay", "ciao", "ciao!"]
   },
   {
     "start": "00:04:28.963",
     "end": "00:04:32.163",
     "fidel": ["እንዴ", "አንተ", "ትስቃለህ", "እንዴ", "ስልክ", "እያወራሁ!"],
-    "phonetics": ["əndä", "antä", "ṭəsəqqaläh", "əndä", "sələk’", "əyyäwärrahu!"],
-    "translations": ["right?", "you", "are laughing", "right?", "phone", "while talking!"]
+    "phonetics": ["ənde", "antä", "ṭəsəqqaläh", "ənde", "sələk’", "əyyäwärrahu!"],
+    "translations": ["Wow!", "you", "are laughing", "《Emphasis 》", "phone", "while I am talking!"]
   },
   {
     "start": "00:04:32.363",
     "end": "00:04:34.630",
-    "fidel": ["ምን", "ላድርግ", "ታድያ", "ታክሲ", "እየጠበኩ", "ነው", "ስትል", "ነዋ!"],
-    "phonetics": ["mən", "ladərg", "ṭadəya", "tak’si", "əyyäṭäbəku", "nəw", "səṭəl", "nəwa!"],
-    "translations": ["what", "to do", "then", "taxi", "waiting", "it is", "you said", "is it!"]
+    "fidel": ["ምን", "ላድርግ", "ታድያ", "ታክሲ", "እየጠበኩ ነው", "ስትል ነዋ!"],
+    "phonetics": ["mən", "ladərg", "ṭadya", "tak’si", "əyyäṭäbəku näw", "səṭəl näwa!"],
+    "translations": ["what", "to do", "so then", "taxi", "I am waiting", "when you say that"]
   },
   {
     "start": "00:04:34.737",
