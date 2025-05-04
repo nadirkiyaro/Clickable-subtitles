@@ -262,8 +262,8 @@
     "start": "00:06:55.481",
     "end": "00:06:57.350",
     "fidel": ["እንዴ", "ምንድነው", "የተጣመመ", "ነገር!"],
-    "phonetics": ["ənde", "məndənäw", "yätäṭamämä", "nägär!"],
-    "translations": ["Wow!Ahhh!", "what is", "what a twisted", "thing!"]
+    "phonetics": ["ənde", "məndənäw", "yätät'aamämmä", "nägär!"],
+    "translations": ["Wow!Ahhh!", "what is", "a twisted", "thing!"]
   },
   {
     "start": "00:06:58.984",
@@ -276,50 +276,50 @@
     "start": "00:07:10.623",
     "end": "00:07:11.461",
     "fidel": ["ጨረስክ?"],
-    "phonetics": ["č̣äräsk?"],
+    "phonetics": ["ch'äräsk?"],
     "translations": ["Are you done?"]
   },
   {
     "start": "00:07:25.998",
     "end": "00:07:27.628",
-    "fidel": ["ሄለው...", "በሰላም", "ነው?"],
-    "phonetics": ["hélu…", "bäsälam", "nəw?"],
-    "translations": ["he left...", "in peace", "is it?"]
+    "fidel": ["ሄለው...", "...በሰላም ነው?"],
+    "phonetics": ["hello…", "...bäsälam näw?"],
+    "translations": ["hello...", "is everything okay?"]
   },
   {
     "start": "00:07:28.542",
     "end": "00:07:30.963",
-    "fidel": ["ደርሻለሁ", "ሰፈር", "ውስጥ", "ገብቻለሁ", "ቆየህ", "እኮ"],
-    "phonetics": ["däršalähu", "säfär", "wəst’", "gäbččalähu", "qoyäh", "əko"],
-    "translations": ["I arrived", "neighborhood", "inside", "I entered", "you stayed", "right?"]
+    "fidel": ["ደርሻለሁ", "ሰፈር", "ውስጥ", "ገብቻለሁ", "...ቆየህ", "እኮ"],
+    "phonetics": ["därəshalähu", "säfär", "wust’", "gäbəchalähu", "...qoyäh", "əko"],
+    "translations": ["I have arrived", "neighborhood", "in/inside", "I have entered", "you are late", "《Emphasis》"]
   },
   {
     "start": "00:07:32.358",
     "end": "00:07:35.190",
     "fidel": ["እዛ", "እኮ", "ሱፐር-ማርኬት", "ቆጠራ", "ላይ", "ሆኑና", "ትንሽ"],
-    "phonetics": ["əzza", "əko", "super-markét", "qoṭṭära", "lay", "honuna", "ṭənəš"],
-    "translations": ["over there", "right", "supermarket", "queue", "on", "they were", "a little"]
+    "phonetics": ["əzza", "əko", "super-markét", "qott'ära", "lay", "honuna", "ṭənəsh"],
+    "translations": ["over there", "《》", "supermarket", "counting", "on", "they were and", "a little"]
   },
   {
     "start": "00:07:35.593",
     "end": "00:07:37.290",
     "fidel": ["ምንድን", "ነው", "ምታለከልከው", "እ?"],
-    "phonetics": ["məndən", "nəw", "m’täläkälkaw", "ə?"],
-    "translations": ["what", "is", "you’re blocking", "eh?"]
+    "phonetics": ["məndən", "näw", "m’täläkäləkaw", "ə?"],
+    "translations": ["what", "is", "are you breathing heavily", "eh?"]
   },
   {
     "start": "00:07:38.408",
     "end": "00:07:41.246",
-    "fidel": ["መንገዱ", "ነዋ", "እየሄድኩ", "በእግሬ", "አይደል", "እንዴ", "ነው"],
-    "phonetics": ["mängädu", "nawa", "əyyähēdku", "bä’əgri", "aydal", "əndä", "nəw"],
-    "translations": ["the road", "is", "while I was walking", "on foot", "not", "right?", "it is"]
+    "fidel": ["መንገዱ", "ነዋ", "እየሄድኩ", "በእግሬ", "አይደል", "እንዴ", "...ነው?"],
+    "phonetics": ["mängädu", "näwa", "əyyähedku","bä-əgəre", "aydäl", "ənde", "...näw?"],
+    "translations": ["the road", "is *of course*", "I am going", "by foot", "right/isn't it", "《Emphasis》", "is it?"]
   },
   {
     "start": "00:07:41.753",
     "end": "00:07:43.753",
     "fidel": ["እሺ!", "እሺ", "እሺ", "መጣሁ", "መጣሁ"],
-    "phonetics": ["əši!", "əši", "əši", "mäṭṭahu", "mäṭṭahu"],
-    "translations": ["okay!", "okay", "okay", "I came", "I came"]
+    "phonetics": ["əshi!", "əshi", "əshi", "mätt'ahu", "mätt'ahu"],
+    "translations": ["okay!", "okay", "okay", "I'm coming", "I'm coming"]
   },
   {
     "start": "00:08:11.913",
