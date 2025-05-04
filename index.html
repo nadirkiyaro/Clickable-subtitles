@@ -7,31 +7,31 @@
     body {
       font-family: Arial, sans-serif;
       padding: 12px;
-      font-size: 20px;
+      font-size: 24px;
     }
     .subtitle {
       display: none;
-      margin-bottom: 18px;
+      margin-bottom: 24px;
     }
     .word {
       cursor: pointer;
       color: black;
       position: relative;
-      font-size: 18px;
-      margin: 0 4px;
+      font-size: 36px;
+      margin: 0 6px;
     }
     .tooltip {
       display: none;
       position: absolute;
       background: #eee;
       border: 1px solid #ccc;
-      padding: 4px 6px;
+      padding: 4px 8px;
       border-radius: 4px;
-      top: -1.5em;
+      top: -2em;
       left: 0;
       z-index: 10;
       white-space: nowrap;
-      font-size: 15px;
+      font-size: 18px;
     }
     .word.show .tooltip {
       display: inline;
@@ -58,7 +58,7 @@
   <div class="video-container">
     <iframe
       id="video"
-      src="https://www.youtube.com/embed/NMCn_9t2OMc?enablejsapi=1"
+      src="https://www.youtube.com/embed/NMCn_9t2OMc?start=135&enablejsapi=1"
       frameborder="0"
       allowfullscreen
     ></iframe>
@@ -149,12 +149,5 @@
     tag.src = "https://www.youtube.com/iframe_api";
     document.body.appendChild(tag);
   </script>
-  <script>
-  window.onload = function () {
-    const video = document.querySelector('video');
-    video.currentTime = 135; // 2 minutes and 15 seconds
-    video.play();
-  };
-</script>
 </body>
 </html>
