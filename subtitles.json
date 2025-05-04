@@ -96,5 +96,75 @@
     "fidel": ["ማሬ", "ዳቦ", "ይዘህ", "መምጣት", "ትችላለህ?", "ዳቦ?"],
     "phonetics": ["maré", "dabo", "yəzzäh", "mämt’at", "ṭəč̣č̣äläh?", "dabo?"],
     "translations": ["my love", "bread", "holding", "to come", "can you?", "bread?"]
+  },
+  {
+    "start": "00:04:18.523",
+    "end": "00:04:28.230",
+    "fidel": ["እ", "slice", "ዳቦ", "የተቆረጠ", "ዳቦ", "እሺ", "እሺ", "ይዤ", "እመጣለሁ", "ይዤ", "እመጣለሁ", "እሺ", "እሺ", "ቻው", "ቻው!"],
+    "phonetics": ["ə", "slice", "dabo", "yätäqoräṭä", "dabo", "əši", "əši", "yəžä", "əmmäṭṭaləhu", "yəžä", "əmmäṭṭaləhu", "əši", "əši", "č̣aw", "č̣aw!"],
+    "translations": ["uh", "slice", "bread", "that is cut", "bread", "okay", "okay", "carrying", "I will come", "carrying", "I will come", "okay", "okay", "ciao", "ciao!"]
+  },
+  {
+    "start": "00:04:28.963",
+    "end": "00:04:32.163",
+    "fidel": ["እንዴ", "አንተ", "ትስቃለህ", "እንዴ", "ስልክ", "እያወራሁ!"],
+    "phonetics": ["əndä", "antä", "ṭəsəqqaläh", "əndä", "sələk’", "əyyäwärrahu!"],
+    "translations": ["right?", "you", "are laughing", "right?", "phone", "while talking!"]
+  },
+  {
+    "start": "00:04:32.363",
+    "end": "00:04:34.630",
+    "fidel": ["ምን", "ላድርግ", "ታድያ", "ታክሲ", "እየጠበኩ", "ነው", "ስትል", "ነዋ!"],
+    "phonetics": ["mən", "ladərg", "ṭadəya", "tak’si", "əyyäṭäbəku", "nəw", "səṭəl", "nəwa!"],
+    "translations": ["what", "to do", "then", "taxi", "waiting", "it is", "you said", "is it!"]
+  },
+  {
+    "start": "00:04:34.737",
+    "end": "00:04:42.104",
+    "fidel": ["እኔማ", "ቦሌ", "ቦሌ", "ሜክሲኮ", "ሜክሲኮ", "ልል", "ነበር", "ምን", "ያናድድሃል?"],
+    "phonetics": ["ənéma", "bole", "bole", "Meksiko", "Meksiko", "ləl", "näbär", "mən", "yänadədihal?"],
+    "translations": ["me", "Bole", "Bole", "Mexico", "Mexico", "lal", "was", "what", "makes you nervous?"]
+  },
+  {
+    "start": "00:04:42.171",
+    "end": "00:04:44.727",
+    "fidel": ["እኛም", "ተበልተናል", "እኮ!"],
+    "phonetics": ["əññäm", "täbältenal", "əko!"],
+    "translations": ["we also", "have eaten", "of course!"]
+  },
+  {
+    "start": "00:04:44.860",
+    "end": "00:04:46.416",
+    "fidel": ["ትቀልዳለህ", "እንዴ"],
+    "phonetics": ["ṭəqqäldaläh", "əndä"],
+    "translations": ["you will regret it", "right"]
+  },
+  {
+    "start": "00:04:46.727",
+    "end": "00:04:48.860",
+    "fidel": ["የቤቱ", "አስተዳዳሪ", "አንተ", "ነህ", "እሷ", "ናት?"],
+    "phonetics": ["yäbetu", "astädadari", "antä", "näh", "əšua", "nat?"],
+    "translations": ["of the house", "manager", "you", "are", "she", "is?"]
+  },
+  {
+    "start": "00:04:48.904",
+    "end": "00:04:50.793",
+    "fidel": ["በቃ", "እሺ", "አፍጥነው", "አሁን"],
+    "phonetics": ["bəqa", "əši", "äfṭənäw", "ahün"],
+    "translations": ["enough", "okay", "let's hurry", "now"]
+  },
+  {
+    "start": "00:05:27.551",
+    "end": "00:05:29.624",
+    "fidel": ["ሄለው…", "ወዬ", "የኔ", "ውድ"],
+    "phonetics": ["hélu…", "wäyé", "yäne", "wəd"],
+    "translations": ["he left", "oh no", "my", "dear"]
+  },
+  {
+    "start": "00:05:31.525",
+    "end": "00:05:32.811",
+    "fidel": ["ሄለው…", "ሄለው", "ሄለው"],
+    "phonetics": ["hélu…", "hélu", "hélu"],
+    "translations": ["he left", "he left", "he left"]
   }
   ]
