@@ -158,35 +158,35 @@
     "end": "00:05:29.624",
     "fidel": ["ሄለው…", "ወዬ", "የኔ", "ውድ"],
     "phonetics": ["hello…", "wäyé", "yänne", "wud"],
-    "translations": ["He left", "Yes! 《when someone calls your name》", "my", "dear"]
+    "translations": ["Hello", "Yes! 《when someone calls your name - *affectionate way* 》", "my", "dear"]
   },
   {
     "start": "00:05:31.525",
     "end": "00:05:32.811",
     "fidel": ["ሄለው…", "ሄለው", "ሄለው"],
-    "phonetics": ["hélu…", "hélu", "hélu"],
-    "translations": ["he left", "he left", "he left"]
+    "phonetics": ["héllo…", "hello", "hello"],
+    "translations": ["hello", "hello", "hello"]
   },
   {
     "start": "00:05:34.453",
     "end": "00:05:36.453",
     "fidel": ["ወዬ", "ወዬ", "እ", "የት", "ደረስክ?"],
     "phonetics": ["wäyé", "wäyé", "ə", "yät", "däräsk?"],
-    "translations": ["oh no", "oh no", "uh", "where", "did you arrive?"]
+    "translations": ["yes! *affectionate way*", "yes", "uh", "where", "did you arrive?"]
   },
   {
     "start": "00:05:37.962",
     "end": "00:05:40.103",
-    "fidel": ["ታክሲ", "ውስጥ", "ሆኜ", "ነው", "ታክሲ", "ውስጥ", "ሆኜ", "ነው"],
-    "phonetics": ["tak’si", "wəst’", "honé", "nəw", "tak’si", "wəst’", "honé", "nəw"],
-    "translations": ["taxi", "inside", "being", "it is", "taxi", "inside", "being", "it is"]
+    "fidel": ["ታክሲ", "ውስጥ", "ሆኜ ነው", "ታክሲ", "ውስጥ", "ሆኜ", "ነው"],
+    "phonetics": ["tak’si", "wust’", "hongé näw", "taksi", "wust’", "honge näw"],
+    "translations": ["taxi", "inside", "I am being", "taxi", "inside", "I am being"]
   },
   {
     "start": "00:05:40.330",
     "end": "00:05:43.573",
-    "fidel": ["እኮ", "የት", "ደረስክ?", "እ", "አሁን", "ሱፐር-ማርኬቱ", "ጋር", "እየደረስኩ", "ነው"],
-    "phonetics": ["əko", "yät", "däräsk?", "ə", "ahün", "super-marketu", "gar", "əyyädäräsku", "nəw"],
-    "translations": ["okay", "where", "have you reached?", "uh", "now", "supermarket", "toward", "arriving", "it is"]
+    "fidel": ["እኮ", "የት", "ደረስክ?", "እ", "አሁን", "ሱፐር-ማርኬቱ", "ጋር", "እየደረስኩ ነው"],
+    "phonetics": ["əko", "yät", "däräsk?", "ə", "ahün", "...super-marketu", "gar", "əyyädäräsku näw"],
+    "translations": ["Right!", "where", "have you reached?", "uh", "now", "...the supermarket", "arounf", "I am arriving"]
   },
   {
     "start": "00:05:44.746",
