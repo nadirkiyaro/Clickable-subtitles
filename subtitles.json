@@ -166,5 +166,75 @@
     "fidel": ["ሄለው…", "ሄለው", "ሄለው"],
     "phonetics": ["hélu…", "hélu", "hélu"],
     "translations": ["he left", "he left", "he left"]
+  },
+  {
+    "start": "00:05:34.453",
+    "end": "00:05:36.453",
+    "fidel": ["ወዬ", "ወዬ", "እ", "የት", "ደረስክ?"],
+    "phonetics": ["wäyé", "wäyé", "ə", "yät", "däräsk?"],
+    "translations": ["oh no", "oh no", "uh", "where", "did you arrive?"]
+  },
+  {
+    "start": "00:05:37.962",
+    "end": "00:05:40.103",
+    "fidel": ["ታክሲ", "ውስጥ", "ሆኜ", "ነው", "ታክሲ", "ውስጥ", "ሆኜ", "ነው"],
+    "phonetics": ["tak’si", "wəst’", "honé", "nəw", "tak’si", "wəst’", "honé", "nəw"],
+    "translations": ["taxi", "inside", "being", "it is", "taxi", "inside", "being", "it is"]
+  },
+  {
+    "start": "00:05:40.330",
+    "end": "00:05:43.573",
+    "fidel": ["እኮ", "የት", "ደረስክ?", "እ", "አሁን", "ሱፐር-ማርኬቱ", "ጋር", "እየደረስኩ", "ነው"],
+    "phonetics": ["əko", "yät", "däräsk?", "ə", "ahün", "super-marketu", "gar", "əyyädäräsku", "nəw"],
+    "translations": ["okay", "where", "have you reached?", "uh", "now", "supermarket", "toward", "arriving", "it is"]
+  },
+  {
+    "start": "00:05:44.746",
+    "end": "00:05:45.746",
+    "fidel": ["ከምኔው", "ደረሰ"],
+    "phonetics": ["kämménäw", "däräsa"],
+    "translations": ["from mine", "arrived"]
+  },
+  {
+    "start": "00:05:47.961",
+    "end": "00:05:50.020",
+    "fidel": ["ተወውና", "ና", "ዳቦውን", "አይ", "ለምን", "ለምን"],
+    "phonetics": ["täwäwna", "na", "dabown", "ay", "lämən", "lämən"],
+    "translations": ["leave it", "come", "the bread", "no", "why", "why"]
+  },
+  {
+    "start": "00:05:50.223",
+    "end": "00:05:54.243",
+    "fidel": ["እንዴ", "አይ", "ገብቼ", "pick", "ማረግ", "እኮ", "ነው።", "ታክሲ", "ስላጣሁ", "ነው", "በቃ", "ደርሻለሁ"],
+    "phonetics": ["əndä", "ay", "gäbčče", "pick", "märäg", "əko", "nəw", "tak’si", "səläṭṭahu", "nəw", "bəqa", "däršalähu"],
+    "translations": ["right", "no", "going in", "pick", "up", "of course", "it is", "taxi", "because I missed", "it is", "enough", "I will arrive"]
+  },
+  {
+    "start": "00:05:54.321",
+    "end": "00:05:55.874",
+    "fidel": ["ለኔም", "ሲጋራ", "ይዘህልኝ", "ና...", "ሲጋራ?"],
+    "phonetics": ["länäm", "sigara", "yəzäləñ", "na…", "sigara?"],
+    "translations": ["for me too", "cigarette", "bring me", "okay…", "cigarette?"]
+  },
+  {
+    "start": "00:05:56.462",
+    "end": "00:05:59.725",
+    "fidel": ["የማነው", "ሲጋራ", "አይ", "እንትን", "ነው", "ወያላ", "ነ"],
+    "phonetics": ["yämänow", "sigära", "ay", "əntən", "nəw", "wayäla", "nä"],
+    "translations": ["whose", "cigarette", "no", "it's a tool", "is", "or what", "is"]
+  },
+  {
+    "start": "00:06:00.635",
+    "end": "00:06:02.255",
+    "fidel": ["ረዳቱ", "ነው", "በቃ", "ተወው", "ይቅር"],
+    "phonetics": ["rädatu", "nəw", "bəqa", "täwäw", "yəqər"],
+    "translations": ["his assistant", "is", "enough", "leave it", "sorry"]
+  },
+  {
+    "start": "00:06:02.662",
+    "end": "00:06:04.932",
+    "fidel": ["ለምን", "ይቀራል", "በቃ", "እኮ", "ይሀው", "ደርሻለሁ", "ቶሎ", "ና"],
+    "phonetics": ["lämən", "yəqäral", "bəqa", "əko", "yəhaw", "däršalähu", "ṭolo", "na"],
+    "translations": ["why", "it will be left", "enough", "okay", "this", "I will arrive", "quickly", "come"]
   }
   ]
