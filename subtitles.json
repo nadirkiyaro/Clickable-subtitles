@@ -411,5 +411,75 @@
     "fidel": ["ደረስክ", "እንዴ?", "...", "አዎ"],
     "phonetics": ["däräsk", "əndä?", "...", "awo"],
     "translations": ["you arrived", "right?", "...", "yes"]
+  }, 
+  {
+    "start": "00:10:04.880",
+    "end": "00:10:06.463",
+    "fidel": ["ግባ", "ኣ", "ታዲያ", "ክፍት", "እኮ", "ነው", "በሩ"],
+    "phonetics": ["gəba", "a", "ṭadiya", "kəfət", "əko", "nəw", "bäru"],
+    "translations": ["go in", "uh", "then", "open", "okay", "it is", "the gate"]
+  },
+  {
+    "start": "00:10:09.758",
+    "end": "00:10:12.924",
+    "fidel": ["ዝግ", "ነው...", "አረ", "ክፍት", "ነው", "ገፋ", "አርገውና", "ግባ"],
+    "phonetics": ["zəg", "nəw...", "äre", "kəfət", "nəw", "gäfa", "ärgäwna", "gəba"],
+    "translations": ["closed", "it is...", "hey", "open", "it is", "push", "and do", "go in"]
+  },
+  {
+    "start": "00:10:13.509",
+    "end": "00:10:15.692",
+    "fidel": ["ገፋሁ", "ገፋሁት", "እኮ"],
+    "phonetics": ["gäfahu", "gäfahut", "əko"],
+    "translations": ["I pushed", "I pushed it", "okay"]
+  },
+  {
+    "start": "00:10:17.100",
+    "end": "00:10:21.098",
+    "fidel": ["ገፋሁት", "እኮ", "ዝግ", "ነው", "አረ", "መለስ", "አርጌ", "ነው", "የገባሁት", "ገፋ", "አድርገው"],
+    "phonetics": ["gäfahut", "əko", "zəg", "nəw", "äre", "mäläs", "ärgä", "nəw", "yägäbahut", "gäfa", "adərgäw"],
+    "translations": ["I pushed it", "okay", "closed", "it is", "hey", "reverse", "I did", "it is", "what I entered", "push", "do"]
+  },
+  {
+    "start": "00:10:21.831",
+    "end": "00:10:23.649",
+    "fidel": ["አረ", "የኔ", "ውድ", "ዝግ", "ነው"],
+    "phonetics": ["äre", "yäne", "wəd", "zəg", "nəw"],
+    "translations": ["hey", "my", "dear", "closed", "it is"]
+  },
+  {
+    "start": "00:10:24.405",
+    "end": "00:10:27.307",
+    "fidel": ["አሃ", "ዘግቼዋለሁ", "ማለት", "ነው?"],
+    "phonetics": ["aha", "zägəččäwaləhu", "malät", "nəw?"],
+    "translations": ["aha", "I closed it", "means", "is it?"]
+  },
+  {
+    "start": "00:10:27.947",
+    "end": "00:10:29.848",
+    "fidel": ["እባክሽ", "ክፈቺልኝ...", "በቃ", "መጣሁ", "እሺ"],
+    "phonetics": ["əbakš", "k’əfäččiləñ...", "bəqa", "mäṭṭahu", "əši"],
+    "translations": ["please", "open for me...", "enough", "I came", "okay"]
+  },
+  {
+    "start": "00:10:30.122",
+    "end": "00:10:33.815",
+    "fidel": ["መጣሁ", "መጣሁ", "እሺ", "ክፈቺልኝ", "እባክሽ", "ብርዱ", "ገደለኝ", "እሺ"],
+    "phonetics": ["mäṭṭahu", "mäṭṭahu", "əši", "k’əfäččiləñ", "əbakš", "bərdu", "gädaläñ", "əši"],
+    "translations": ["I came", "I came", "okay", "open for me", "please", "cold", "killed me", "okay"]
+  },
+  {
+    "start": "00:11:13.400",
+    "end": "00:11:15.400",
+    "fidel": ["እ", "ማሬ...", "ቆየሽ", "እኮ", "ውዴ"],
+    "phonetics": ["ə", "maré...", "qoyäš", "əko", "wədə"],
+    "translations": ["uh", "my love...", "you waited", "okay", "dear"]
+  },
+  {
+    "start": "00:11:15.995",
+    "end": "00:11:17.767",
+    "fidel": ["ጫማ", "እኮ", "ተፍጦብኝ", "ነው።", "አይተሀዋል?"],
+    "phonetics": ["č’ama", "əko", "täfəṭṭobəñ", "nəw.", "aytäḥäwal?"],
+    "translations": ["shoe", "okay", "came off me", "it is.", "did you see it?"]
   }
   ]
