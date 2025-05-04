@@ -481,5 +481,75 @@
     "fidel": ["ጫማ", "እኮ", "ተፍጦብኝ", "ነው።", "አይተሀዋል?"],
     "phonetics": ["č’ama", "əko", "täfəṭṭobəñ", "nəw.", "aytäḥäwal?"],
     "translations": ["shoe", "okay", "came off me", "it is.", "did you see it?"]
+  }, 
+  {
+    "start": "00:11:18.607",
+    "end": "00:11:21.580",
+    "fidel": ["ጫማ?...", "ማለቴ", "አልጋ", "ስር", "ነው", "መሰለኝ"],
+    "phonetics": ["č’ama?...", "maläṭä", "alga", "sər", "nəw", "mäsäläñ"],
+    "translations": ["shoe?...", "I meant", "under", "the bed", "it is", "I think"]
+  },
+  {
+    "start": "00:11:24.203",
+    "end": "00:11:27.405",
+    "fidel": ["እ", "ቆይ", "ቆይ", "አገኘሁት", "ቆይ", "ይሀውና"],
+    "phonetics": ["ə", "qoy", "qoy", "agäññut", "qoy", "yəhauna"],
+    "translations": ["uh", "wait", "wait", "I found it", "wait", "here it is"]
+  },
+  {
+    "start": "00:11:27.945",
+    "end": "00:11:31.108",
+    "fidel": ["ቶሎ", "በይ", "ቶሎ", "በይ", "ብርድ", "ላይ", "ነውኮ", "ያለሁት...", "እሺ", "እሺ", "መጣሁ"],
+    "phonetics": ["ṭolo", "bəy", "ṭolo", "bəy", "bərd", "lay", "nəwko", "yaləhut...", "əši", "əši", "mäṭṭahu"],
+    "translations": ["quick", "come", "quick", "come", "cold", "on", "I am", "saying...", "okay", "okay", "I came"]
+  },
+  {
+    "start": "00:11:55.175",
+    "end": "00:11:58.940",
+    "fidel": ["ምነው", "ውዴ?...", "ወዬ", "ክፈቺልኝ", "እንጂ"],
+    "phonetics": ["mənäw", "wədə?...", "wäyé", "k’əfäččiləñ", "ənji"],
+    "translations": ["why", "dear?...", "oh no", "open for me", "please"]
+  },
+  {
+    "start": "00:11:59.024",
+    "end": "00:12:02.427",
+    "fidel": ["ምን", "እባክህ", "ቁልፉን", "አላጣሁትም", "ያስቀመጥኩበት...", "አጣሁት?"],
+    "phonetics": ["mən", "əbakəh", "qulfun", "aläṭṭahutəm", "yasqämäṭqubät...", "aṭṭahut?"],
+    "translations": ["what", "please", "the key", "I didn’t lose it", "where I placed it...", "I lost it?"]
+  },
+  {
+    "start": "00:12:03.803",
+    "end": "00:12:07.604",
+    "fidel": ["አረ", "ባክሽ", "ፈጠን", "በይ", "በእናትሽ", "በምን", "እጄ", "እንደማስቀምጠው", "እኮ", "ነው", "ግራ", "ሚገባኝ"],
+    "phonetics": ["äre", "bäkš", "fəṭṭän", "bəy", "bä’ənätš", "bämän", "əjé", "əndämäskämtäw", "əko", "nəw", "gära", "migäbäñ"],
+    "translations": ["hey", "please", "quick", "come", "your mom", "how", "my hand", "how I place it", "okay", "is", "left", "that fits me"]
+  },
+  {
+    "start": "00:12:09.381",
+    "end": "00:12:12.764",
+    "fidel": ["አንተ", "ጋር", "ነው", "እንዴ?", "እንዴ", "እኔ", "ጋር", "ቢኖር", "አልከፍተውም", "እንዴ"],
+    "phonetics": ["antä", "gar", "nəw", "əndä?", "əndä", "əne", "gar", "binor", "alkäftäwəm", "əndä"],
+    "translations": ["you", "with", "is", "right?", "right", "I", "with", "if it was", "I wouldn’t open", "right"]
+  },
+  {
+    "start": "00:12:12.958",
+    "end": "00:12:17.512",
+    "fidel": ["ወይ", "ጉድ!", "እሺ", "በቃ", "መጣሁ", "መጣሁ", "እፈልገዋለሁ"],
+    "phonetics": ["wäy", "gud!", "əši", "bəqa", "mäṭṭahu", "mäṭṭahu", "əfäləggäwalähu"],
+    "translations": ["oh no", "oops!", "okay", "enough", "I came", "I came", "I will find it"]
+  },
+  {
+    "start": "00:12:17.850",
+    "end": "00:12:19.440",
+    "fidel": ["አንተ", "ጋር", "ነው", "እንዴ?", "እንዴ", "እኔ", "ጋር", "ቢኖር", "አልከፍተውም", "እንዴ"],
+    "phonetics": ["antä", "gar", "nəw", "əndä?", "əndä", "əne", "gar", "binor", "alkäftäwəm", "əndä"],
+    "translations": ["you", "with", "is", "right?", "right", "I", "with", "if it was", "I wouldn’t open", "right"]
+  },
+  {
+    "start": "00:12:20.215",
+    "end": "00:12:23.999",
+    "fidel": ["አይዞህ", "እኔን", "እኔን..", "መጣሁ!"],
+    "phonetics": ["ayzo", "ənen", "ənen..", "mäṭṭahu!"],
+    "translations": ["poor you", "me", "me..", "I came!"]
   }
   ]
