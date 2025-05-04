@@ -355,5 +355,61 @@
     "fidel": ["እንደዚ", "ይደረጋል", "እንዴ", "ክፈቺው", "ክፈቺው"],
     "phonetics": ["əndäzi", "yidärägäl", "əndä", "k’əfäčču", "k’əfäčču"],
     "translations": ["like this", "it happens", "right", "open it", "open it"]
+  },
+  {
+    "start": "00:08:56.934",
+    "end": "00:09:00.476",
+    "fidel": ["የት", "አለህ?", "...", "ክፈቺው", "ክፈቺው", "ክፈቺው?"],
+    "phonetics": ["yät", "äläh?", "...", "k’əfäčču", "k’əfäčču", "k’əfäčču?"],
+    "translations": ["where", "are you?", "...", "open it", "open it", "open it?"]
+  },
+  {
+    "start": "00:09:02.548",
+    "end": "00:09:03.786",
+    "fidel": ["ይሀው", "ከፈትኩት", "እኮ!"],
+    "phonetics": ["yəhaw", "käfätkut", "əko!"],
+    "translations": ["here", "I opened it", "okay!"]
+  },
+  {
+    "start": "00:09:05.937",
+    "end": "00:09:08.304",
+    "fidel": ["በር", "ላይ", "የለሁም...", "የለሁም?"],
+    "phonetics": ["bär", "lay", "yälähum...", "yälähum?"],
+    "translations": ["gate", "on", "I'm not here...", "not here?"]
+  },
+  {
+    "start": "00:09:09.149",
+    "end": "00:09:10.896",
+    "fidel": ["እስቲ", "በደንብ", "እዪ", "የት", "ነው", "ማይህ?"],
+    "phonetics": ["əsti", "bädänb", "əyyi", "yät", "nəw", "mayih?"],
+    "translations": ["first", "properly", "hey", "where", "is", "your house?"]
+  },
+  {
+    "start": "00:09:11.497",
+    "end": "00:09:15.767",
+    "fidel": ["የለሁም?", "እሺ", "እሺ", "በቃ", "ግቢ", "ግቢ", "ሰው", "አግኝቼ", "ነው", "ግቢ"],
+    "phonetics": ["yälähum?", "əši", "əši", "bəqa", "gəbi", "gəbi", "säw", "agnəčče", "nəw", "gəbi"],
+    "translations": ["not here?", "okay", "okay", "enough", "compound", "compound", "person", "I found", "it is", "compound"]
+  },
+  {
+    "start": "00:09:16.044",
+    "end": "00:09:20.570",
+    "fidel": ["ክፍት", "ተይውና", "ግቢ...", "ነው?", "እሺ!"],
+    "phonetics": ["kəfət", "täyywəna", "gəbi...", "nəw?", "əši!"],
+    "translations": ["leave it open", "and", "compound...", "is it?", "okay!"]
+  },
+  {
+    "start": "00:09:58.599",
+    "end": "00:10:01.627",
+    "fidel": ["ሄለው", "የኔ", "ውድ", "በር", "ላይ", "ነኝ", "ክፈቺልኝ"],
+    "phonetics": ["hélu", "yäne", "wəd", "bär", "lay", "nän", "k’əfäččiləñ"],
+    "translations": ["he left", "my", "dear", "gate", "on", "I am", "open for me"]
+  },
+  {
+    "start": "00:10:01.926",
+    "end": "00:10:03.926",
+    "fidel": ["ደረስክ", "እንዴ?", "...", "አዎ"],
+    "phonetics": ["däräsk", "əndä?", "...", "awo"],
+    "translations": ["you arrived", "right?", "...", "yes"]
   }
   ]
