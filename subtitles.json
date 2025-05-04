@@ -551,5 +551,21 @@
     "fidel": ["አይዞህ", "እኔን", "እኔን..", "መጣሁ!"],
     "phonetics": ["ayzo", "ənen", "ənen..", "mäṭṭahu!"],
     "translations": ["poor you", "me", "me..", "I came!"]
+  }, 
+  {
+    "start": "00:12:51.583",
+    "end": "00:12:52.563",
+    "fidel": [
+      "ትቀልድብኛለች",
+      "እንዴ?"
+    ],
+    "phonetics": [
+      "ṭəqäldəbəññaläč̣",
+      "əndä?"
+    ],
+    "translations": [
+      "she will regret it with me",
+      "right?"
+    ]
   }
   ]
