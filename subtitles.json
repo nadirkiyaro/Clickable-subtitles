@@ -236,5 +236,75 @@
     "fidel": ["ለምን", "ይቀራል", "በቃ", "እኮ", "ይሀው", "ደርሻለሁ", "ቶሎ", "ና"],
     "phonetics": ["lämən", "yəqäral", "bəqa", "əko", "yəhaw", "däršalähu", "ṭolo", "na"],
     "translations": ["why", "it will be left", "enough", "okay", "this", "I will arrive", "quickly", "come"]
+  }, 
+  {
+    "start": "00:06:05.496",
+    "end": "00:06:07.249",
+    "fidel": ["እሺ", "መጣሁ", "መጣሁ…", "መጣሁ"],
+    "phonetics": ["əši", "mäṭṭahu", "mäṭṭahu…", "mäṭṭahu"],
+    "translations": ["okay", "I came", "I came…", "I came"]
+  },
+  {
+    "start": "00:06:09.946",
+    "end": "00:06:11.840",
+    "fidel": ["እንዴ", "ያማችኋል", "እንዴ", "እንዴ"],
+    "phonetics": ["əndä", "yamacc’wal", "əndä", "əndä"],
+    "translations": ["right", "you (pl.) amazed me", "right", "right"]
+  },
+  {
+    "start": "00:06:44.377",
+    "end": "00:06:45.266",
+    "fidel": ["ምንድነው", "ነገሩ"],
+    "phonetics": ["məndənäw", "nägäru"],
+    "translations": ["what is", "the matter"]
+  },
+  {
+    "start": "00:06:55.481",
+    "end": "00:06:57.350",
+    "fidel": ["እንዴ", "ምንድነው", "የተጣመመ", "ነገር!"],
+    "phonetics": ["əndä", "məndənäw", "yätäṭamämä", "nägär!"],
+    "translations": ["right", "what is", "that was delayed", "thing!"]
+  },
+  {
+    "start": "00:06:58.984",
+    "end": "00:07:00.735",
+    "fidel": ["ፍጠን", "በናትህ!", "ተረጋጋ"],
+    "phonetics": ["fəṭṭän", "bänatəh!", "tärägaga"],
+    "translations": ["hurry", "because of her!", "calm down"]
+  },
+  {
+    "start": "00:07:10.623",
+    "end": "00:07:11.461",
+    "fidel": ["ጨረስክ?"],
+    "phonetics": ["č̣äräsk?"],
+    "translations": ["Are you done?"]
+  },
+  {
+    "start": "00:07:25.998",
+    "end": "00:07:27.628",
+    "fidel": ["ሄለው...", "በሰላም", "ነው?"],
+    "phonetics": ["hélu…", "bäsälam", "nəw?"],
+    "translations": ["he left...", "in peace", "is it?"]
+  },
+  {
+    "start": "00:07:28.542",
+    "end": "00:07:30.963",
+    "fidel": ["ደርሻለሁ", "ሰፈር", "ውስጥ", "ገብቻለሁ", "ቆየህ", "እኮ"],
+    "phonetics": ["däršalähu", "säfär", "wəst’", "gäbččalähu", "qoyäh", "əko"],
+    "translations": ["I arrived", "neighborhood", "inside", "I entered", "you stayed", "right?"]
+  },
+  {
+    "start": "00:07:32.358",
+    "end": "00:07:35.190",
+    "fidel": ["እዛ", "እኮ", "ሱፐር-ማርኬት", "ቆጠራ", "ላይ", "ሆኑና", "ትንሽ"],
+    "phonetics": ["əzza", "əko", "super-markét", "qoṭṭära", "lay", "honuna", "ṭənəš"],
+    "translations": ["over there", "right", "supermarket", "queue", "on", "they were", "a little"]
+  },
+  {
+    "start": "00:07:35.593",
+    "end": "00:07:37.290",
+    "fidel": ["ምንድን", "ነው", "ምታለከልከው", "እ?"],
+    "phonetics": ["məndən", "nəw", "m’täläkälkaw", "ə?"],
+    "translations": ["what", "is", "you’re blocking", "eh?"]
   }
   ]
