@@ -3,57 +3,57 @@
     "start": "00:02:29.000",
     "end": "00:02:34.500",
     "fidel": ["ወጣ", "ወጣ", "ፈጠን", "ፈጠን", "ጊዜ", "የለም"],
-    "phonetics": ["wäṭṭa", "wäṭṭa", "fəṭṭän", "fəṭṭän", "gizé", "yäläm"],
-    "translations": ["He went", "He went", "quickly", "quickly", "time", "there is none"]
+    "phonetics": ["wät'a", "wät'a", "fäṭṭän", "fätṭ'än", "gizé", "yäläm"],
+    "translations": ["Get <your money> out", "Out", "quickly", "quickly", "time", "there is none"]
   },
   {
     "start": "00:03:05.763",
     "end": "00:03:07.496",
     "fidel": ["ሄለው", "የኔ", "ውድ"],
-    "phonetics": ["hélu", "yäne", "wəd"],
+    "phonetics": ["Hello", "yäne", "wud"],
     "translations": ["Hello", "my", "dear"]
   },
   {
     "start": "00:03:07.696",
     "end": "00:03:09.230",
     "fidel": ["ገና", "አልወጣህም", "እንዴ", "ከቢሮ?"],
-    "phonetics": ["gänä", "alwäṭṭahäm", "əndä", "käbiro?"],
-    "translations": ["still", "you haven't left", "right?", "from the office?"]
+    "phonetics": ["gänä", "alwäṭṭ'ahm", "ənde", "käbiro?"],
+    "translations": ["still", "you haven't left", "<Emphasis>", "from the office?"]
   },
   {
     "start": "00:03:09.255",
     "end": "00:03:10.230",
     "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው።"],
     "phonetics": ["ṭənəš", "səra", "yəžä", "nəw"],
-    "translations": ["a little", "work", "carrying", "it is"]
+    "translations": ["a little", "work", "carrying/holding", "it is"]
   },
   {
     "start": "00:03:10.497",
     "end": "00:03:11.297",
     "fidel": ["ታመሻለህ?"],
     "phonetics": ["ṭamäšaläh?"],
-    "translations": ["Are you sick?"]
+    "translations": ["Are you going to be late?"]
   },
   {
     "start": "00:03:11.430",
     "end": "00:03:16.030",
-    "fidel": ["አሁን", "አሁን", "ልወጣ", "ነው።", "ልወጣ", "ነው።"],
-    "phonetics": ["ahün", "ahün", "ləwäṭṭa", "nəw", "ləwäṭṭa", "nəw"],
-    "translations": ["now", "now", "to leave", "it is", "to leave", "it is"]
+    "fidel": ["አሁን", "አሁን", "ልወጣ ነው።", "ልወጣ ነው።"],
+    "phonetics": ["ahün", "ahün", "ləwäṭṭ'a nəw", "ləwäṭṭa nəw"],
+    "translations": ["now", "now", "I'm about to leave", "I'm about to leave"]
   },
   {
     "start": "00:03:16.230",
     "end": "00:03:17.096",
     "fidel": ["ቶሎ", "ና!"],
     "phonetics": ["ṭolo", "na!"],
-    "translations": ["hurry", "come!"]
+    "translations": ["hurry up", "come!"]
   },
   {
     "start": "00:03:17.121",
     "end": "00:03:22.363",
-    "fidel": ["እሽ", "ይሄው", "በቃ", "ወጣሁ", "አታምሽ", "እሺ?", "እሺ", "እንዴ!"],
-    "phonetics": ["əš", "yəhew", "bəqa", "wäṭṭahu", "atäməš", "əši?", "əši", "əndä!"],
-    "translations": ["okay", "this", "enough", "I left", "don’t forget", "okay?", "okay", "right!"]
+    "fidel": ["እሽ", "ይሄው", "በቃ", "ወጣሁ", "አታምሽ", "እሺ?", "እሺ", "...እንዴ!"],
+    "phonetics": ["əshi", "yəhew", "bəqa", "wäṭṭ'ahu", "atäməsh", "əshi?", "əshi", "...ənde!"],
+    "translations": ["okay", "here", "enough/Alright then", "I left", "don’t be late", "okay?", "okay", "Wow!"]
   },
   {
     "start": "00:03:26.430",
