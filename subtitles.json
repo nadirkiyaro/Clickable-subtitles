@@ -52,22 +52,22 @@
     "start": "00:03:17.121",
     "end": "00:03:22.363",
     "fidel": ["እሽ", "ይሄው", "በቃ", "ወጣሁ", "አታምሽ", "እሺ?", "እሺ", "...እንዴ!"],
-    "phonetics": ["əshi", "yəhew", "bəqa", "wäṭṭ'ahu", "atäməsh", "əshi?", "əshi", "...ənde!"],
+    "phonetics": ["əshi", "yəhew", "bäqa", "wäṭṭ'ahu", "atämsh", "əshi?", "əshi", "...ənde!"],
     "translations": ["okay", "here", "enough/Alright then", "I left", "don’t be late", "okay?", "okay", "Wow!"]
   },
   {
     "start": "00:03:26.430",
     "end": "00:03:30.497",
     "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
-    "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
-    "translations": ["right", "we", "are eating", "it is not", "right"]
+    "phonetics": ["əndä", "əñya", "əyyätäbälan", "aydälam", "ənde"],
+    "translations": ["Emphasis", "we", "are losing/screwed", "is it not", "Emphasis"]
   },
   {
     "start": "00:03:30.963",
     "end": "00:03:35.830",
-    "fidel": ["እሺ", "ቁረጥ", "ይሄው"],
-    "phonetics": ["əši", "qureṭ", "yəhew"],
-    "translations": ["okay", "cut", "this"]
+    "fidel": ["እሺ", "ቁረጥ", "...ይሄው"],
+    "phonetics": ["əshi", "qureṭ", "...yəhew"],
+    "translations": ["okay", "start. literally: cut", "Here you go"]
   },
   {
     "start": "00:03:42.097",
