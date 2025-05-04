@@ -149,5 +149,12 @@
     tag.src = "https://www.youtube.com/iframe_api";
     document.body.appendChild(tag);
   </script>
+  <script>
+  window.onload = function () {
+    const video = document.querySelector('video');
+    video.currentTime = 135; // 2 minutes and 15 seconds
+    video.play();
+  };
+</script>
 </body>
 </html>
