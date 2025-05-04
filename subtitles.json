@@ -241,15 +241,15 @@
     "start": "00:06:05.496",
     "end": "00:06:07.249",
     "fidel": ["እሺ", "መጣሁ", "መጣሁ…", "መጣሁ"],
-    "phonetics": ["əši", "mäṭṭahu", "mäṭṭahu…", "mäṭṭahu"],
-    "translations": ["okay", "I came", "I came…", "I came"]
+    "phonetics": ["əshi", "mätt'ahu", "mätt'ahu…", "mätt'ahu"],
+    "translations": ["okay", "I am coming", "I'm coming …", "I'm coming"]
   },
   {
     "start": "00:06:09.946",
     "end": "00:06:11.840",
     "fidel": ["እንዴ", "ያማችኋል", "እንዴ", "እንዴ"],
-    "phonetics": ["əndä", "yamacc’wal", "əndä", "əndä"],
-    "translations": ["right", "you (pl.) amazed me", "right", "right"]
+    "phonetics": ["ənde", "yamach’hual", "ənde", "ənde"],
+    "translations": ["What!", "are you guys sick?", "《Emphasis- are you guys really sick》", "Wow!"]
   },
   {
     "start": "00:06:44.377",
@@ -262,15 +262,15 @@
     "start": "00:06:55.481",
     "end": "00:06:57.350",
     "fidel": ["እንዴ", "ምንድነው", "የተጣመመ", "ነገር!"],
-    "phonetics": ["əndä", "məndənäw", "yätäṭamämä", "nägär!"],
-    "translations": ["right", "what is", "that was delayed", "thing!"]
+    "phonetics": ["ənde", "məndənäw", "yätäṭamämä", "nägär!"],
+    "translations": ["Wow!Ahhh!", "what is", "what a twisted", "thing!"]
   },
   {
     "start": "00:06:58.984",
     "end": "00:07:00.735",
-    "fidel": ["ፍጠን", "በናትህ!", "ተረጋጋ"],
-    "phonetics": ["fəṭṭän", "bänatəh!", "tärägaga"],
-    "translations": ["hurry", "because of her!", "calm down"]
+    "fidel": ["ፍጠን", "በናትህ!", "...ተረጋጋ"],
+    "phonetics": ["fətt'än", "bännatəh!", "...tärägaga"],
+    "translations": ["hurry up", "Please!《Infrormal - Literally: In the name of your mother / For the sake of your mom》", "calm down"]
   },
   {
     "start": "00:07:10.623",
