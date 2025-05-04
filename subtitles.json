@@ -26,5 +26,75 @@
     "fidel": ["ትንሽ", "ስራ", "ይዤ", "ነው።"],
     "phonetics": ["ṭənəš", "səra", "yəžä", "nəw"],
     "translations": ["a little", "work", "carrying", "it is"]
+  },
+  {
+    "start": "00:03:10.497",
+    "end": "00:03:11.297",
+    "fidel": ["ታመሻለህ?"],
+    "phonetics": ["ṭamäšaläh?"],
+    "translations": ["Are you sick?"]
+  },
+  {
+    "start": "00:03:11.430",
+    "end": "00:03:16.030",
+    "fidel": ["አሁን", "አሁን", "ልወጣ", "ነው።", "ልወጣ", "ነው።"],
+    "phonetics": ["ahün", "ahün", "ləwäṭṭa", "nəw", "ləwäṭṭa", "nəw"],
+    "translations": ["now", "now", "to leave", "it is", "to leave", "it is"]
+  },
+  {
+    "start": "00:03:16.230",
+    "end": "00:03:17.096",
+    "fidel": ["ቶሎ", "ና!"],
+    "phonetics": ["ṭolo", "na!"],
+    "translations": ["hurry", "come!"]
+  },
+  {
+    "start": "00:03:17.121",
+    "end": "00:03:22.363",
+    "fidel": ["እሽ", "ይሄው", "በቃ", "ወጣሁ", "አታምሽ", "እሺ?", "እሺ", "እንዴ!"],
+    "phonetics": ["əš", "yəhew", "bəqa", "wäṭṭahu", "atäməš", "əši?", "əši", "əndä!"],
+    "translations": ["okay", "this", "enough", "I left", "don’t forget", "okay?", "okay", "right!"]
+  },
+  {
+    "start": "00:03:26.430",
+    "end": "00:03:30.497",
+    "fidel": ["እንዴ", "እኛ", "እየተበላን", "አይደለም", "እንዴ"],
+    "phonetics": ["əndä", "əñña", "əyyätäbälän", "aydälam", "əndä"],
+    "translations": ["right", "we", "are eating", "it is not", "right"]
+  },
+  {
+    "start": "00:03:30.963",
+    "end": "00:03:35.830",
+    "fidel": ["እሺ", "ቁረጥ", "ይሄው"],
+    "phonetics": ["əši", "qureṭ", "yəhew"],
+    "translations": ["okay", "cut", "this"]
+  },
+  {
+    "start": "00:03:42.097",
+    "end": "00:03:46.230",
+    "fidel": ["አፍጥነው", "እሺ"],
+    "phonetics": ["äfṭənäw", "əši"],
+    "translations": ["hurry", "okay"]
+  },
+  {
+    "start": "00:04:03.057",
+    "end": "00:04:11.123",
+    "fidel": ["ሽ", "ሽ", "አንዴ", "አንዴ", "ሃለው"],
+    "phonetics": ["š", "š", "andä", "andä", "haläw"],
+    "translations": ["shh", "shh", "hey", "hey", "he's gone"]
+  },
+  {
+    "start": "00:04:11.323",
+    "end": "00:04:13.190",
+    "fidel": ["ታክሲ", "እየጠበኩ", "ነው"],
+    "phonetics": ["tak’si", "əyyäṭäbəku", "nəw"],
+    "translations": ["taxi", "waiting", "it is"]
+  },
+  {
+    "start": "00:04:13.790",
+    "end": "00:04:18.456",
+    "fidel": ["ማሬ", "ዳቦ", "ይዘህ", "መምጣት", "ትችላለህ?", "ዳቦ?"],
+    "phonetics": ["maré", "dabo", "yəzzäh", "mämt’at", "ṭəč̣č̣äläh?", "dabo?"],
+    "translations": ["my love", "bread", "holding", "to come", "can you?", "bread?"]
   }
-]
+  ]
